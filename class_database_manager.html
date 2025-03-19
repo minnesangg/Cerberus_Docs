@@ -163,7 +163,8 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructs a <a class="el" href="class_database_manager.html" title="The DatabaseManager class.">DatabaseManager</a> object. </p>
-<p>Initializes the object but does not establish a database connection. The database connection will be established later using <code><a class="el" href="#af755b98e0f96d65d0ea2a07274f27159" title="Initializes the database connection.">initDatabase()</a></code>. </p>
+<p>Initializes the object but does not establish a database connection. The database connection will be established later using <code><a class="el" href="#af755b98e0f96d65d0ea2a07274f27159" title="Initializes the database connection.">initDatabase()</a></code>.</p>
+<p>The constructor initializes the <a class="el" href="class_database_manager.html" title="The DatabaseManager class.">DatabaseManager</a> instance. No specific initialization is performed here. </p>
 
 </div>
 </div>
@@ -184,10 +185,18 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Deletes a password from the database. </p>
+<p>Deletes a password entry from the saved passwords list.</p>
 <p>Removes the password entry identified by the provided name from the database.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td>The name of the password entry to be removed. </td></tr>
+    <tr><td class="paramname">name</td><td>The name of the password entry to be removed.</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>This method removes the password associated with the provided name from the list of saved passwords.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the password entry to delete. </td></tr>
   </table>
   </dd>
 </dl>
@@ -210,8 +219,11 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Retrieves all saved passwords. </p>
+<p>Returns a map of all saved passwords.</p>
 <p>Returns a QMap containing pairs of password names and their corresponding values.</p>
-<dl class="section return"><dt>Returns</dt><dd>A QMap containing (name, password) pairs for all saved passwords. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A QMap containing (name, password) pairs for all saved passwords.</dd></dl>
+<p>This method retrieves all saved passwords as a QMap where the key is the name of the password entry and the value is the decrypted password associated with that name.</p>
+<dl class="section return"><dt>Returns</dt><dd>A QMap containing saved passwords. </dd></dl>
 
 </div>
 </div>
@@ -231,7 +243,9 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Initializes the database connection. </p>
-<p>Ensures that the database is accessible and ready for operations. If the database does not exist, it creates a new SQLite database file. It also creates a table for storing passwords. </p>
+<p>Initializes the SQLite database.</p>
+<p>Ensures that the database is accessible and ready for operations. If the database does not exist, it creates a new SQLite database file. It also creates a table for storing passwords.</p>
+<p>This method sets up the SQLite database connection and creates a table for storing passwords if it does not already exist. The table contains an 'id' (primary key), 'name' (unique identifier for the password entry), and 'password' (encrypted password data). </p>
 
 </div>
 </div>
@@ -251,7 +265,10 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Loads all stored passwords from the database. </p>
-<p>Retrieves all saved passwords from the database, decrypts them using the master password, and stores them in the <code>savedPasswords</code> QMap for quick access. </p>
+<p>Loads saved passwords from the database and decrypts them.</p>
+<p>Retrieves all saved passwords from the database, decrypts them using the master password, and stores them in the <code>savedPasswords</code> QMap for quick access.</p>
+<p>This method queries the database to retrieve all saved passwords, decrypts them using the AES-256 algorithm, and populates the <code>savedPasswords</code> map with decrypted passwords.</p>
+<p>The decryption is done using the master password's hash and an initialization vector (IV) that is stored with the password. </p>
 
 </div>
 </div>
@@ -275,11 +292,20 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Saves a password to the database. </p>
+<p>Saves an encrypted password to the database.</p>
 <p>Encrypts the password using AES-256 and stores it in the database with a name or label. If the password already exists, it updates the existing record.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>The name or label associated with the password (e.g., website name). </td></tr>
-    <tr><td class="paramname">password</td><td>The password to be stored (it will be encrypted before saving). </td></tr>
+    <tr><td class="paramname">password</td><td>The password to be stored (it will be encrypted before saving).</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>This method encrypts the given password using AES-256 encryption (CBC mode) with the master password's hash as the encryption key. It then stores the encrypted password along with its initialization vector (IV) in the database.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name to associate with the password entry. </td></tr>
+    <tr><td class="paramname">password</td><td>The plaintext password to encrypt and save. </td></tr>
   </table>
   </dd>
 </dl>
@@ -288,7 +314,7 @@ Public Member Functions</h2></td></tr>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>headers/<a class="el" href="database_8h_source.html">database.h</a></li>
-<li>src/<b>database.cpp</b></li>
+<li>src/<a class="el" href="database_8cpp.html">database.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

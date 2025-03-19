@@ -161,7 +161,14 @@ Public Member Functions</h2></td></tr>
 <p>Initializes the login dialog, sets up the UI, and checks if a master password is already set. If not, it shows the option to set a new master password.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">parent</td><td>The parent widget (default is nullptr). </td></tr>
+    <tr><td class="paramname">parent</td><td>The parent widget (default is nullptr).</td></tr>
+  </table>
+  </dd>
+</dl>
+<p>The constructor initializes the <a class="el" href="class_dialog_login.html" title="The DialogLogin class. Manages user authentication and master password setup.">DialogLogin</a> dialog, sets the window properties (size, title, icon), and checks whether a master password has been set. If not, it switches to the password generation page; otherwise, it switches to the login page.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td>The parent widget of the dialog (default is nullptr). </td></tr>
   </table>
   </dd>
 </dl>
@@ -184,13 +191,14 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Destroys the <a class="el" href="class_dialog_login.html" title="The DialogLogin class. Manages user authentication and master password setup.">DialogLogin</a> object. </p>
-<p>Frees allocated resources. </p>
+<p>Frees allocated resources.</p>
+<p>The destructor cleans up resources, particularly the UI elements. </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>headers/<a class="el" href="dialoglogin_8h_source.html">dialoglogin.h</a></li>
-<li>src/<b>dialoglogin.cpp</b></li>
+<li>src/<a class="el" href="dialoglogin_8cpp.html">dialoglogin.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
