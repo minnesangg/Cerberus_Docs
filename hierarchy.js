@@ -10,6 +10,5 @@ var hierarchy =
       [ "DatabaseManager", "class_database_manager.html", null ],
       [ "MasterPassword", "class_master_password.html", null ],
       [ "PasswordGenerator", "class_password_generator.html", null ]
-    ] ],
-    [ "The", "class_the.html", null ]
+    ] ]
 ];

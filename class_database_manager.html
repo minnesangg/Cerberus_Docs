@@ -111,6 +111,9 @@ $(function(){initNavTree('class_database_manager.html',''); initResizable(true);
 </div><!--header-->
 <div class="contents">
 
+<p>The <a class="el" href="class_database_manager.html" title="The DatabaseManager class.">DatabaseManager</a> class.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="database_8h_source.html">database.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for DatabaseManager:</div>
@@ -122,7 +125,7 @@ Inheritance diagram for DatabaseManager:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa162d97472e6c31a4e873adda435dbb6" id="r_aa162d97472e6c31a4e873adda435dbb6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa162d97472e6c31a4e873adda435dbb6">DatabaseManager</a> ()</td></tr>
-<tr class="memdesc:aa162d97472e6c31a4e873adda435dbb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="class_database_manager.html">DatabaseManager</a> object.  <br /></td></tr>
+<tr class="memdesc:aa162d97472e6c31a4e873adda435dbb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="class_database_manager.html" title="The DatabaseManager class.">DatabaseManager</a> object.  <br /></td></tr>
 <tr class="separator:aa162d97472e6c31a4e873adda435dbb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af755b98e0f96d65d0ea2a07274f27159" id="r_af755b98e0f96d65d0ea2a07274f27159"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af755b98e0f96d65d0ea2a07274f27159">initDatabase</a> ()</td></tr>
 <tr class="memdesc:af755b98e0f96d65d0ea2a07274f27159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the database connection.  <br /></td></tr>
@@ -149,7 +152,11 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:ae3277df8d622a685ad084cb8f85be8d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object for handling the master password.  <br /></td></tr>
 <tr class="separator:ae3277df8d622a685ad084cb8f85be8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>The <a class="el" href="class_database_manager.html" title="The DatabaseManager class.">DatabaseManager</a> class. </p>
+<p>This class manages database operations for securely storing, loading, and deleting passwords. It handles all database interactions, including AES-256 encryption and decryption of passwords and stores them in a SQLite database. The passwords are associated with a name or label (e.g., website name) for easy retrieval. This class also handles the initialization of the database, loading all stored passwords, saving new passwords with encryption, and deleting passwords.</p>
+<dl class="section note"><dt>Note</dt><dd>Encryption is performed using AES-256 in CBC mode. </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa162d97472e6c31a4e873adda435dbb6" name="aa162d97472e6c31a4e873adda435dbb6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa162d97472e6c31a4e873adda435dbb6">&#9670;&#160;</a></span>DatabaseManager()</h2>
 
@@ -165,8 +172,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructs a <a class="el" href="class_database_manager.html">DatabaseManager</a> object. </p>
-<p>Initializes the object but does not establish a database connection. <a class="el" href="class_the.html">The</a> database connection will be established later using <code><a class="el" href="#af755b98e0f96d65d0ea2a07274f27159" title="Initializes the database connection.">initDatabase()</a></code>. </p>
+<p>Constructs a <a class="el" href="class_database_manager.html" title="The DatabaseManager class.">DatabaseManager</a> object. </p>
+<p>Initializes the object but does not establish a database connection. The database connection will be established later using <code><a class="el" href="#af755b98e0f96d65d0ea2a07274f27159" title="Initializes the database connection.">initDatabase()</a></code>. </p>
 
 </div>
 </div>
@@ -190,7 +197,7 @@ Private Attributes</h2></td></tr>
 <p>Removes the password entry identified by the provided name from the database.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td><a class="el" href="class_the.html">The</a> name of the password entry to be removed. </td></tr>
+    <tr><td class="paramname">name</td><td>The name of the password entry to be removed. </td></tr>
   </table>
   </dd>
 </dl>
@@ -281,8 +288,8 @@ Private Attributes</h2></td></tr>
 <p>Encrypts the password using AES-256 and stores it in the database with a name or label. If the password already exists, it updates the existing record.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td><a class="el" href="class_the.html">The</a> name or label associated with the password (e.g., website name). </td></tr>
-    <tr><td class="paramname">password</td><td><a class="el" href="class_the.html">The</a> password to be stored (it will be encrypted before saving). </td></tr>
+    <tr><td class="paramname">name</td><td>The name or label associated with the password (e.g., website name). </td></tr>
+    <tr><td class="paramname">password</td><td>The password to be stored (it will be encrypted before saving). </td></tr>
   </table>
   </dd>
 </dl>
