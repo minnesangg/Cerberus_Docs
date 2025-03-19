@@ -106,20 +106,22 @@ $(function(){initNavTree('dialoglogin_8h_source.html',''); initResizable(true); 
   <div class="headertitle"><div class="title">dialoglogin.h</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef DIALOGLOGIN_H</span></div>
+<a href="dialoglogin_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef DIALOGLOGIN_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define DIALOGLOGIN_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;QDialog&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;QString&gt;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;QStackedWidget&gt;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;headers/masterpassword.h&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="masterpassword_8h.html">headers/masterpassword.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;QMessageBox&gt;</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;QDebug&gt;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;QFile&gt;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="keyword">namespace </span>Ui {</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span>DialogLogin;</div>
+<div class="foldopen" id="foldopen00012" data-start="{" data-end="}">
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="namespace_ui.html">   12</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_ui.html">Ui</a> {</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">class </span><a class="code hl_class" href="class_dialog_login.html">DialogLogin</a>;</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>}</div>
+</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span></div>
 <div class="foldopen" id="foldopen00024" data-start="{" data-end="};">
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_dialog_login.html">   24</a></span><span class="keyword">class </span><a class="code hl_function" href="class_dialog_login.html#afe1b70ffd09a73f0a4b3ea66c91a275f">DialogLogin</a> : <span class="keyword">public</span> QDialog</div>
@@ -132,27 +134,35 @@ $(function(){initNavTree('dialoglogin_8h_source.html',''); initResizable(true); 
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <a class="code hl_function" href="class_dialog_login.html#a2344abd0aa688be845495af65f7425be">~DialogLogin</a>();</div>
 <div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="keyword">private</span> slots:</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">void</span> on_loginButton_clicked();</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_dialog_login.html#aaea472b775e078c3106b9467405ea260">on_loginButton_clicked</a>();</div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span></div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">void</span> on_newMasterPassButton_clicked();</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    <span class="keywordtype">void</span> <a class="code hl_slot" href="class_dialog_login.html#a8c4f9394d88d9b7a51c26989b0707102">on_newMasterPassButton_clicked</a>();</div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>    Ui::DialogLogin *ui;                </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    QStackedWidget *masterPassStacked;  </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    <a class="code hl_class" href="class_master_password.html">MasterPassword</a> master_pass;         </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="class_dialog_login.html#ad2d064db0d8c0d2381cf226f9af0709f">   64</a></span>    Ui::DialogLogin *<a class="code hl_variable" href="class_dialog_login.html#ad2d064db0d8c0d2381cf226f9af0709f">ui</a>;                </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="class_dialog_login.html#a24a776df770af2c496bbf80377b60103">   65</a></span>    QStackedWidget *<a class="code hl_variable" href="class_dialog_login.html#a24a776df770af2c496bbf80377b60103">masterPassStacked</a>;  </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="class_dialog_login.html#aa94a1718ad5ac21a3ddee1c6cd7a56bb">   67</a></span>    <a class="code hl_class" href="class_master_password.html">MasterPassword</a> <a class="code hl_variable" href="class_dialog_login.html#aa94a1718ad5ac21a3ddee1c6cd7a56bb">master_pass</a>;         </div>
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>};</div>
 </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
 <div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="preprocessor">#endif </span><span class="comment">// DIALOGLOGIN_H</span></div>
-<div class="ttc" id="aclass_dialog_login_html_a2344abd0aa688be845495af65f7425be"><div class="ttname"><a href="class_dialog_login.html#a2344abd0aa688be845495af65f7425be">DialogLogin::~DialogLogin</a></div><div class="ttdeci">~DialogLogin()</div><div class="ttdoc">Destroys the DialogLogin object.</div><div class="ttdef"><b>Definition</b> dialoglogin.cpp:51</div></div>
-<div class="ttc" id="aclass_dialog_login_html_afe1b70ffd09a73f0a4b3ea66c91a275f"><div class="ttname"><a href="class_dialog_login.html#afe1b70ffd09a73f0a4b3ea66c91a275f">DialogLogin::DialogLogin</a></div><div class="ttdeci">DialogLogin(QWidget *parent=nullptr)</div><div class="ttdoc">Constructs a DialogLogin object.</div><div class="ttdef"><b>Definition</b> dialoglogin.cpp:22</div></div>
-<div class="ttc" id="aclass_master_password_html"><div class="ttname"><a href="class_master_password.html">MasterPassword</a></div><div class="ttdoc">The MasterPassword class.</div><div class="ttdef"><b>Definition</b> masterpassword.h:27</div></div>
+<div class="ttc" id="aclass_dialog_login_html"><div class="ttname"><a href="class_dialog_login.html">DialogLogin</a></div><div class="ttdef"><b>Definition</b> dialoglogin.h:25</div></div>
+<div class="ttc" id="aclass_dialog_login_html_a2344abd0aa688be845495af65f7425be"><div class="ttname"><a href="class_dialog_login.html#a2344abd0aa688be845495af65f7425be">DialogLogin::~DialogLogin</a></div><div class="ttdeci">~DialogLogin()</div><div class="ttdoc">Destroys the DialogLogin object.</div><div class="ttdef"><b>Definition</b> dialoglogin.cpp:28</div></div>
+<div class="ttc" id="aclass_dialog_login_html_a24a776df770af2c496bbf80377b60103"><div class="ttname"><a href="class_dialog_login.html#a24a776df770af2c496bbf80377b60103">DialogLogin::masterPassStacked</a></div><div class="ttdeci">QStackedWidget * masterPassStacked</div><div class="ttdoc">based on whether a master password is set.</div><div class="ttdef"><b>Definition</b> dialoglogin.h:65</div></div>
+<div class="ttc" id="aclass_dialog_login_html_a8c4f9394d88d9b7a51c26989b0707102"><div class="ttname"><a href="class_dialog_login.html#a8c4f9394d88d9b7a51c26989b0707102">DialogLogin::on_newMasterPassButton_clicked</a></div><div class="ttdeci">void on_newMasterPassButton_clicked()</div><div class="ttdoc">Handles the event when a new master password is being set.</div><div class="ttdef"><b>Definition</b> dialoglogin.cpp:63</div></div>
+<div class="ttc" id="aclass_dialog_login_html_aa94a1718ad5ac21a3ddee1c6cd7a56bb"><div class="ttname"><a href="class_dialog_login.html#aa94a1718ad5ac21a3ddee1c6cd7a56bb">DialogLogin::master_pass</a></div><div class="ttdeci">MasterPassword master_pass</div><div class="ttdoc">Object for handling master password authentication and management.</div><div class="ttdef"><b>Definition</b> dialoglogin.h:67</div></div>
+<div class="ttc" id="aclass_dialog_login_html_aaea472b775e078c3106b9467405ea260"><div class="ttname"><a href="class_dialog_login.html#aaea472b775e078c3106b9467405ea260">DialogLogin::on_loginButton_clicked</a></div><div class="ttdeci">void on_loginButton_clicked()</div><div class="ttdoc">Handles the login button click event.</div><div class="ttdef"><b>Definition</b> dialoglogin.cpp:33</div></div>
+<div class="ttc" id="aclass_dialog_login_html_ad2d064db0d8c0d2381cf226f9af0709f"><div class="ttname"><a href="class_dialog_login.html#ad2d064db0d8c0d2381cf226f9af0709f">DialogLogin::ui</a></div><div class="ttdeci">Ui::DialogLogin * ui</div><div class="ttdoc">UI elements for the dialog.</div><div class="ttdef"><b>Definition</b> dialoglogin.h:64</div></div>
+<div class="ttc" id="aclass_dialog_login_html_afe1b70ffd09a73f0a4b3ea66c91a275f"><div class="ttname"><a href="class_dialog_login.html#afe1b70ffd09a73f0a4b3ea66c91a275f">DialogLogin::DialogLogin</a></div><div class="ttdeci">DialogLogin(QWidget *parent=nullptr)</div><div class="ttdoc">Constructs a DialogLogin object.</div><div class="ttdef"><b>Definition</b> dialoglogin.cpp:4</div></div>
+<div class="ttc" id="aclass_master_password_html"><div class="ttname"><a href="class_master_password.html">MasterPassword</a></div><div class="ttdef"><b>Definition</b> masterpassword.h:27</div></div>
+<div class="ttc" id="amasterpassword_8h_html"><div class="ttname"><a href="masterpassword_8h.html">masterpassword.h</a></div></div>
+<div class="ttc" id="anamespace_ui_html"><div class="ttname"><a href="namespace_ui.html">Ui</a></div><div class="ttdef"><b>Definition</b> dialoglogin.h:12</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_7f57b1e41c5acd0e859ae5f3a2b075a9.html">headers</a></li><li class="navelem"><b>dialoglogin.h</b></li>
+    <li class="navelem"><a class="el" href="dir_7f57b1e41c5acd0e859ae5f3a2b075a9.html">headers</a></li><li class="navelem"><a class="el" href="dialoglogin_8h.html">dialoglogin.h</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
   </ul>
 </div>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loadpasswords_0',['loadPasswords',['../class_database_manager.html#a636e09be2019233a75699e5bb8b37057',1,'DatabaseManager']]]
+  ['initdatabase_0',['initDatabase',['../class_database_manager.html#af755b98e0f96d65d0ea2a07274f27159',1,'DatabaseManager']]]
 ];

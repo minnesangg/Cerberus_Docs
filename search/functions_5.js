@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['mainwindow_0',['MainWindow',['../class_main_window.html#a996c5a2b6f77944776856f08ec30858d',1,'MainWindow']]],
-  ['masterpassword_1',['MasterPassword',['../class_master_password.html#aab1b03d42c6eff787598c3db45c32f01',1,'MasterPassword']]],
-  ['masterpassword_2',['masterPassword',['../class_master_password.html#ad476e056a17eb73dbc1ac6b2d1ec9083',1,'MasterPassword']]]
+  ['listwidgetsettings_0',['listWidgetSettings',['../class_main_window.html#a12385ae48c212d833eaedb60d1ded665',1,'MainWindow']]],
+  ['loadpasswords_1',['loadPasswords',['../class_database_manager.html#a636e09be2019233a75699e5bb8b37057',1,'DatabaseManager']]]
 ];

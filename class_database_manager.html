@@ -105,13 +105,11 @@ $(function(){initNavTree('class_database_manager.html',''); initResizable(true);
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_database_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">DatabaseManager Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>The <a class="el" href="class_database_manager.html" title="The DatabaseManager class.">DatabaseManager</a> class.  
- <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="database_8h_source.html">database.h</a>&gt;</code></p>
 <div class="dynheader">
@@ -124,7 +122,7 @@ Inheritance diagram for DatabaseManager:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aa162d97472e6c31a4e873adda435dbb6" id="r_aa162d97472e6c31a4e873adda435dbb6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa162d97472e6c31a4e873adda435dbb6">DatabaseManager</a> ()</td></tr>
-<tr class="memdesc:aa162d97472e6c31a4e873adda435dbb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="class_database_manager.html" title="The DatabaseManager class.">DatabaseManager</a> object.  <br /></td></tr>
+<tr class="memdesc:aa162d97472e6c31a4e873adda435dbb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="class_database_manager.html">DatabaseManager</a> object.  <br /></td></tr>
 <tr class="separator:aa162d97472e6c31a4e873adda435dbb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af755b98e0f96d65d0ea2a07274f27159" id="r_af755b98e0f96d65d0ea2a07274f27159"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af755b98e0f96d65d0ea2a07274f27159">initDatabase</a> ()</td></tr>
 <tr class="memdesc:af755b98e0f96d65d0ea2a07274f27159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the database connection.  <br /></td></tr>
@@ -141,12 +139,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8aae12f9f8410c6bb9034adb4b5a95da" id="r_a8aae12f9f8410c6bb9034adb4b5a95da"><td class="memItemLeft" align="right" valign="top">QMap&lt; QString, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8aae12f9f8410c6bb9034adb4b5a95da">getSavedPasswords</a> () const</td></tr>
 <tr class="memdesc:a8aae12f9f8410c6bb9034adb4b5a95da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves all saved passwords.  <br /></td></tr>
 <tr class="separator:a8aae12f9f8410c6bb9034adb4b5a95da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a8f6c5ac11a57c5743cec4dbc2219f6be" id="r_a8f6c5ac11a57c5743cec4dbc2219f6be"><td class="memItemLeft" align="right" valign="top">QMap&lt; QString, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f6c5ac11a57c5743cec4dbc2219f6be">savedPasswords</a></td></tr>
+<tr class="memdesc:a8f6c5ac11a57c5743cec4dbc2219f6be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores passwords as (name, password) pairs.  <br /></td></tr>
+<tr class="separator:a8f6c5ac11a57c5743cec4dbc2219f6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3277df8d622a685ad084cb8f85be8d3" id="r_ae3277df8d622a685ad084cb8f85be8d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_master_password.html">MasterPassword</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3277df8d622a685ad084cb8f85be8d3">master_password</a></td></tr>
+<tr class="memdesc:ae3277df8d622a685ad084cb8f85be8d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object for handling the master password.  <br /></td></tr>
+<tr class="separator:ae3277df8d622a685ad084cb8f85be8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The <a class="el" href="class_database_manager.html" title="The DatabaseManager class.">DatabaseManager</a> class. </p>
-<p>This class manages database operations for securely storing, loading, and deleting passwords. It handles all database interactions, including AES-256 encryption and decryption of passwords and stores them in a SQLite database. The passwords are associated with a name or label (e.g., website name) for easy retrieval. This class also handles the initialization of the database, loading all stored passwords, saving new passwords with encryption, and deleting passwords.</p>
-<dl class="section note"><dt>Note</dt><dd>Encryption is performed using AES-256 in CBC mode. </dd></dl>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa162d97472e6c31a4e873adda435dbb6" name="aa162d97472e6c31a4e873adda435dbb6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa162d97472e6c31a4e873adda435dbb6">&#9670;&#160;</a></span>DatabaseManager()</h2>
 
@@ -162,9 +165,8 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Constructs a <a class="el" href="class_database_manager.html" title="The DatabaseManager class.">DatabaseManager</a> object. </p>
-<p>Initializes the object but does not establish a database connection. The database connection will be established later using <code><a class="el" href="#af755b98e0f96d65d0ea2a07274f27159" title="Initializes the database connection.">initDatabase()</a></code>.</p>
-<p>The constructor initializes the <a class="el" href="class_database_manager.html" title="The DatabaseManager class.">DatabaseManager</a> instance. No specific initialization is performed here. </p>
+<p>Constructs a <a class="el" href="class_database_manager.html">DatabaseManager</a> object. </p>
+<p>Initializes the object but does not establish a database connection. <a class="el" href="class_the.html">The</a> database connection will be established later using <code><a class="el" href="#af755b98e0f96d65d0ea2a07274f27159" title="Initializes the database connection.">initDatabase()</a></code>. </p>
 
 </div>
 </div>
@@ -185,18 +187,10 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Deletes a password from the database. </p>
-<p>Deletes a password entry from the saved passwords list.</p>
 <p>Removes the password entry identified by the provided name from the database.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td>The name of the password entry to be removed.</td></tr>
-  </table>
-  </dd>
-</dl>
-<p>This method removes the password associated with the provided name from the list of saved passwords.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">name</td><td>The name of the password entry to delete. </td></tr>
+    <tr><td class="paramname">name</td><td><a class="el" href="class_the.html">The</a> name of the password entry to be removed. </td></tr>
   </table>
   </dd>
 </dl>
@@ -219,11 +213,8 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Retrieves all saved passwords. </p>
-<p>Returns a map of all saved passwords.</p>
 <p>Returns a QMap containing pairs of password names and their corresponding values.</p>
-<dl class="section return"><dt>Returns</dt><dd>A QMap containing (name, password) pairs for all saved passwords.</dd></dl>
-<p>This method retrieves all saved passwords as a QMap where the key is the name of the password entry and the value is the decrypted password associated with that name.</p>
-<dl class="section return"><dt>Returns</dt><dd>A QMap containing saved passwords. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A QMap containing (name, password) pairs for all saved passwords. </dd></dl>
 
 </div>
 </div>
@@ -243,9 +234,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Initializes the database connection. </p>
-<p>Initializes the SQLite database.</p>
-<p>Ensures that the database is accessible and ready for operations. If the database does not exist, it creates a new SQLite database file. It also creates a table for storing passwords.</p>
-<p>This method sets up the SQLite database connection and creates a table for storing passwords if it does not already exist. The table contains an 'id' (primary key), 'name' (unique identifier for the password entry), and 'password' (encrypted password data). </p>
+<p>Ensures that the database is accessible and ready for operations. If the database does not exist, it creates a new SQLite database file. It also creates a table for storing passwords. </p>
 
 </div>
 </div>
@@ -265,10 +254,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Loads all stored passwords from the database. </p>
-<p>Loads saved passwords from the database and decrypts them.</p>
-<p>Retrieves all saved passwords from the database, decrypts them using the master password, and stores them in the <code>savedPasswords</code> QMap for quick access.</p>
-<p>This method queries the database to retrieve all saved passwords, decrypts them using the AES-256 algorithm, and populates the <code>savedPasswords</code> map with decrypted passwords.</p>
-<p>The decryption is done using the master password's hash and an initialization vector (IV) that is stored with the password. </p>
+<p>Retrieves all saved passwords from the database, decrypts them using the master password, and stores them in the <code>savedPasswords</code> QMap for quick access. </p>
 
 </div>
 </div>
@@ -292,23 +278,63 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Saves a password to the database. </p>
-<p>Saves an encrypted password to the database.</p>
 <p>Encrypts the password using AES-256 and stores it in the database with a name or label. If the password already exists, it updates the existing record.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">name</td><td>The name or label associated with the password (e.g., website name). </td></tr>
-    <tr><td class="paramname">password</td><td>The password to be stored (it will be encrypted before saving).</td></tr>
+    <tr><td class="paramname">name</td><td><a class="el" href="class_the.html">The</a> name or label associated with the password (e.g., website name). </td></tr>
+    <tr><td class="paramname">password</td><td><a class="el" href="class_the.html">The</a> password to be stored (it will be encrypted before saving). </td></tr>
   </table>
   </dd>
 </dl>
-<p>This method encrypts the given password using AES-256 encryption (CBC mode) with the master password's hash as the encryption key. It then stores the encrypted password along with its initialization vector (IV) in the database.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">name</td><td>The name to associate with the password entry. </td></tr>
-    <tr><td class="paramname">password</td><td>The plaintext password to encrypt and save. </td></tr>
-  </table>
-  </dd>
-</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae3277df8d622a685ad084cb8f85be8d3" name="ae3277df8d622a685ad084cb8f85be8d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3277df8d622a685ad084cb8f85be8d3">&#9670;&#160;</a></span>master_password</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_master_password.html">MasterPassword</a> DatabaseManager::master_password</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Object for handling the master password. </p>
+
+</div>
+</div>
+<a id="a8f6c5ac11a57c5743cec4dbc2219f6be" name="a8f6c5ac11a57c5743cec4dbc2219f6be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f6c5ac11a57c5743cec4dbc2219f6be">&#9670;&#160;</a></span>savedPasswords</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;QString, QString&gt; DatabaseManager::savedPasswords</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stores passwords as (name, password) pairs. </p>
 
 </div>
 </div>

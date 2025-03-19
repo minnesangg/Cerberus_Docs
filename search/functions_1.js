@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['databasemanager_0',['DatabaseManager',['../class_database_manager.html#aa162d97472e6c31a4e873adda435dbb6',1,'DatabaseManager']]],
-  ['deletepassword_1',['deletePassword',['../class_database_manager.html#ac228bb8cb0afe6b13b5d3f445fec22cf',1,'DatabaseManager']]],
-  ['dialoglogin_2',['DialogLogin',['../class_dialog_login.html#afe1b70ffd09a73f0a4b3ea66c91a275f',1,'DialogLogin']]]
+  ['changepage_0',['changePage',['../class_main_window.html#a77595ed3f5a0dd02f1d1295408a1d910',1,'MainWindow']]],
+  ['checkmasterpass_1',['checkMasterPass',['../class_master_password.html#afca02ffd87a636caaa84130c686b1057',1,'MasterPassword']]],
+  ['copybuttonsimages_2',['copyButtonsImages',['../class_main_window.html#aefdfd1ae5a5d45219f461474aef6dd9a',1,'MainWindow']]]
 ];

@@ -2,6 +2,26 @@ var class_main_window =
 [
     [ "MainWindow", "class_main_window.html#a996c5a2b6f77944776856f08ec30858d", null ],
     [ "~MainWindow", "class_main_window.html#ae98d00a93bc118200eeef9f9bba1dba7", null ],
+    [ "allignCenter", "class_main_window.html#aeacb0a807a5ac99be9f2468f20eac2da", null ],
+    [ "changePage", "class_main_window.html#a77595ed3f5a0dd02f1d1295408a1d910", null ],
+    [ "copyButtonsImages", "class_main_window.html#aefdfd1ae5a5d45219f461474aef6dd9a", null ],
+    [ "listWidgetSettings", "class_main_window.html#a12385ae48c212d833eaedb60d1ded665", null ],
+    [ "on_addPassButton_clicked", "class_main_window.html#ae542aff39de48c6baef303bec98c880b", null ],
+    [ "on_copyBufferButton_clicked", "class_main_window.html#add34b99b4f69f28fb3094110e6a8a0d8", null ],
+    [ "on_copyFindedButton_clicked", "class_main_window.html#ad1553fe1fad652998ba82b65873a9a5e", null ],
+    [ "on_deleteButton_clicked", "class_main_window.html#ac70a65e0bdf1b517e947b0bd0161987e", null ],
+    [ "on_deletePassButton_clicked", "class_main_window.html#a5030fda6fbcf448a36a0d235e5afbfb6", null ],
+    [ "on_findButton_clicked", "class_main_window.html#a0d40408a1a5af41282f05065fd73cd6f", null ],
+    [ "on_generateButton_clicked", "class_main_window.html#a6f07e911e9368f6643afa0aed2272353", null ],
+    [ "on_savePassButton_clicked", "class_main_window.html#ae961a7bb0b1d2546b0156c4d4b52589a", null ],
+    [ "on_showAllButton_clicked", "class_main_window.html#a09518731bd494fbb6c416403645dd16d", null ],
+    [ "on_showButton_clicked", "class_main_window.html#aa2e1465652da4dbd80b65ff6dc4cfead", null ],
+    [ "openStyleFile", "class_main_window.html#a6ba4e84b746fee0927c53d89b471b1df", null ],
+    [ "startProgramm", "class_main_window.html#a6f56f0a0042e9dffe42dcac45db2ed98", null ],
+    [ "database", "class_main_window.html#a53583d5f902ff759dd60e1a63bcdaaf4", null ],
     [ "databaseManager", "class_main_window.html#acc1acbf3a62067ef7c7479568791408e", null ],
-    [ "passwordGenerator", "class_main_window.html#a503bf0ceceec71294789fed42b2b676e", null ]
+    [ "masterPasswordHandler", "class_main_window.html#a9e742edf3497d4fdc2179b3f169fcaf5", null ],
+    [ "password_generator", "class_main_window.html#a369f0559aa971c10e7be951bc30279e9", null ],
+    [ "passwordGenerator", "class_main_window.html#a503bf0ceceec71294789fed42b2b676e", null ],
+    [ "ui", "class_main_window.html#a35466a70ed47252a0191168126a352a5", null ]
 ];

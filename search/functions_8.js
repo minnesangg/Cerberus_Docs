@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['verifymasterpass_0',['verifyMasterPass',['../class_master_password.html#adbfe0898197b671a73ae2aabe19b1eb5',1,'MasterPassword']]]
+  ['passgeneration_0',['passGeneration',['../class_password_generator.html#a1d3734e5781d60afa5099d49a1d3e968',1,'PasswordGenerator']]],
+  ['passwordgenerator_1',['PasswordGenerator',['../class_password_generator.html#acdbd50701e86b1b6fe8232e0a561073b',1,'PasswordGenerator']]]
 ];

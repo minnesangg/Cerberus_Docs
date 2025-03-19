@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['_7edialoglogin_0',['~DialogLogin',['../class_dialog_login.html#a2344abd0aa688be845495af65f7425be',1,'DialogLogin']]],
-  ['_7emainwindow_1',['~MainWindow',['../class_main_window.html#ae98d00a93bc118200eeef9f9bba1dba7',1,'MainWindow']]]
+  ['savedpasswords_0',['savedPasswords',['../class_database_manager.html#a8f6c5ac11a57c5743cec4dbc2219f6be',1,'DatabaseManager']]],
+  ['savepassword_1',['savePassword',['../class_database_manager.html#acfaf1cf661261aef419376ad4683d6dc',1,'DatabaseManager']]],
+  ['startprogramm_2',['startProgramm',['../class_main_window.html#a6f56f0a0042e9dffe42dcac45db2ed98',1,'MainWindow']]]
 ];
