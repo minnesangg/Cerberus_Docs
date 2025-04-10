@@ -1,14 +1,17 @@
 var hierarchy =
 [
     [ "QDialog", null, [
-      [ "DialogLogin", "class_dialog_login.html", null ]
+      [ "DialogLogin", "classDialogLogin.html", null ]
     ] ],
     [ "QMainWindow", null, [
-      [ "MainWindow", "class_main_window.html", null ]
+      [ "MainWindow", "classMainWindow.html", null ]
+    ] ],
+    [ "QObject", null, [
+      [ "PwnedApiChecker", "classPwnedApiChecker.html", null ]
     ] ],
     [ "QWidget", null, [
-      [ "DatabaseManager", "class_database_manager.html", null ],
-      [ "MasterPassword", "class_master_password.html", null ],
-      [ "PasswordGenerator", "class_password_generator.html", null ]
+      [ "DatabaseManager", "classDatabaseManager.html", null ],
+      [ "MasterPassword", "classMasterPassword.html", null ],
+      [ "PasswordGenerator", "classPasswordGenerator.html", null ]
     ] ]
 ];
