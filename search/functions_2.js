@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['databasemanager_0',['DatabaseManager',['../classDatabaseManager.html#aa162d97472e6c31a4e873adda435dbb6',1,'DatabaseManager']]],
-  ['deletepassword_1',['deletePassword',['../classDatabaseManager.html#ac228bb8cb0afe6b13b5d3f445fec22cf',1,'DatabaseManager']]],
-  ['dialoglogin_2',['DialogLogin',['../classDialogLogin.html#afe1b70ffd09a73f0a4b3ea66c91a275f',1,'DialogLogin']]]
+  ['changepage_0',['changePage',['../classMainWindow.html#a77595ed3f5a0dd02f1d1295408a1d910',1,'MainWindow']]],
+  ['checkmasterpass_1',['checkMasterPass',['../classMasterPassword.html#afca02ffd87a636caaa84130c686b1057',1,'MasterPassword']]],
+  ['checkpassword_2',['checkPassword',['../classPwnedApiChecker.html#abd6a54eab5fb86a993e9561fec69dc78',1,'PwnedApiChecker']]]
 ];

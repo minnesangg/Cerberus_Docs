@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['generateiv_0',['generateIV',['../classMasterPassword.html#aa578fe3d90adb4d6ddf8cceea3a4f863',1,'MasterPassword::generateIV()'],['../classPasswordGenerator.html#aedb9669189034b4b69d050149220cee4',1,'PasswordGenerator::generateIV()']]],
-  ['getmasterpasswordhash_1',['getMasterPasswordHash',['../classMasterPassword.html#ae3f8f50f2310ea3eb1e07ecd4e758e70',1,'MasterPassword']]],
-  ['getsavedpasswords_2',['getSavedPasswords',['../classDatabaseManager.html#a8aae12f9f8410c6bb9034adb4b5a95da',1,'DatabaseManager']]]
+  ['databasemanager_0',['DatabaseManager',['../classDatabaseManager.html#aa162d97472e6c31a4e873adda435dbb6',1,'DatabaseManager']]],
+  ['deletepassword_1',['deletePassword',['../classDatabaseManager.html#ac228bb8cb0afe6b13b5d3f445fec22cf',1,'DatabaseManager']]],
+  ['dialoglogin_2',['DialogLogin',['../classDialogLogin.html#afe1b70ffd09a73f0a4b3ea66c91a275f',1,'DialogLogin']]]
 ];

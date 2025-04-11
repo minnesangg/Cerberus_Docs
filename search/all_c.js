@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['_7edialoglogin_0',['~DialogLogin',['../classDialogLogin.html#a2344abd0aa688be845495af65f7425be',1,'DialogLogin']]],
-  ['_7emainwindow_1',['~MainWindow',['../classMainWindow.html#ae98d00a93bc118200eeef9f9bba1dba7',1,'MainWindow']]]
+  ['ui_0',['Ui',['../namespaceUi.html',1,'']]],
+  ['ui_1',['ui',['../classDialogLogin.html#ad2d064db0d8c0d2381cf226f9af0709f',1,'DialogLogin::ui'],['../classMainWindow.html#a35466a70ed47252a0191168126a352a5',1,'MainWindow::ui']]],
+  ['updatestyles_2',['updateStyles',['../classDialogLogin.html#ad18fa2a5ed9945d78e91692ac865a50d',1,'DialogLogin']]]
 ];

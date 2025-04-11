@@ -1,12 +1,7 @@
 var searchData=
 [
-  ['database_0',['database',['../classMainWindow.html#a53583d5f902ff759dd60e1a63bcdaaf4',1,'MainWindow']]],
-  ['database_2ecpp_1',['database.cpp',['../database_8cpp.html',1,'']]],
-  ['database_2eh_2',['database.h',['../database_8h.html',1,'']]],
-  ['databasemanager_3',['DatabaseManager',['../classDatabaseManager.html',1,'DatabaseManager'],['../classDatabaseManager.html#aa162d97472e6c31a4e873adda435dbb6',1,'DatabaseManager::DatabaseManager()']]],
-  ['databasemanager_4',['databaseManager',['../classMainWindow.html#acc1acbf3a62067ef7c7479568791408e',1,'MainWindow']]],
-  ['deletepassword_5',['deletePassword',['../classDatabaseManager.html#ac228bb8cb0afe6b13b5d3f445fec22cf',1,'DatabaseManager']]],
-  ['dialoglogin_6',['DialogLogin',['../classDialogLogin.html',1,'DialogLogin'],['../classDialogLogin.html#afe1b70ffd09a73f0a4b3ea66c91a275f',1,'DialogLogin::DialogLogin()']]],
-  ['dialoglogin_2ecpp_7',['dialoglogin.cpp',['../dialoglogin_8cpp.html',1,'']]],
-  ['dialoglogin_2eh_8',['dialoglogin.h',['../dialoglogin_8h.html',1,'']]]
+  ['changepage_0',['changePage',['../classMainWindow.html#a77595ed3f5a0dd02f1d1295408a1d910',1,'MainWindow']]],
+  ['checkerrowmap_1',['checkerRowMap',['../classMainWindow.html#a948c58bdc7a64a7abf8b5256fd969571',1,'MainWindow']]],
+  ['checkmasterpass_2',['checkMasterPass',['../classMasterPassword.html#afca02ffd87a636caaa84130c686b1057',1,'MasterPassword']]],
+  ['checkpassword_3',['checkPassword',['../classPwnedApiChecker.html#abd6a54eab5fb86a993e9561fec69dc78',1,'PwnedApiChecker']]]
 ];

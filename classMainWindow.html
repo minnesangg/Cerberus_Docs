@@ -104,7 +104,6 @@ $(function(){initNavTree('classMainWindow.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-slots">Private Slots</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -133,20 +132,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae98d00a93bc118200eeef9f9bba1dba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the <a class="el" href="classMainWindow.html" title="The MainWindow class.">MainWindow</a> object.  <br /></td></tr>
 <tr class="separator:ae98d00a93bc118200eeef9f9bba1dba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:acc1acbf3a62067ef7c7479568791408e" id="r_acc1acbf3a62067ef7c7479568791408e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDatabaseManager.html">DatabaseManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc1acbf3a62067ef7c7479568791408e">databaseManager</a></td></tr>
-<tr class="memdesc:acc1acbf3a62067ef7c7479568791408e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manages interactions with the password database.  <br /></td></tr>
-<tr class="separator:acc1acbf3a62067ef7c7479568791408e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a503bf0ceceec71294789fed42b2b676e" id="r_a503bf0ceceec71294789fed42b2b676e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPasswordGenerator.html">PasswordGenerator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a503bf0ceceec71294789fed42b2b676e">passwordGenerator</a></td></tr>
-<tr class="memdesc:a503bf0ceceec71294789fed42b2b676e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles password generation.  <br /></td></tr>
-<tr class="separator:a503bf0ceceec71294789fed42b2b676e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-slots" name="pri-slots"></a>
 Private Slots</h2></td></tr>
 <tr class="memitem:a8898a9388a90867526dfbaf4b3aa9d68" id="r_a8898a9388a90867526dfbaf4b3aa9d68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8898a9388a90867526dfbaf4b3aa9d68">onPasswordChecked</a> (bool found, int count)</td></tr>
 <tr class="memdesc:a8898a9388a90867526dfbaf4b3aa9d68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot that handles the result of the password check.  <br /></td></tr>
 <tr class="separator:a8898a9388a90867526dfbaf4b3aa9d68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acac1fd885add236d9f55a83f49073640" id="r_acac1fd885add236d9f55a83f49073640"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acac1fd885add236d9f55a83f49073640">onAllPasswordChecked</a> (bool found, int count)</td></tr>
+<tr class="memdesc:acac1fd885add236d9f55a83f49073640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the result of password breach checks for all passwords.  <br /></td></tr>
+<tr class="separator:acac1fd885add236d9f55a83f49073640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acff1645bbf9702607b8dec4097d6579d" id="r_acff1645bbf9702607b8dec4097d6579d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acff1645bbf9702607b8dec4097d6579d">setupTable</a> ()</td></tr>
+<tr class="memdesc:acff1645bbf9702607b8dec4097d6579d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up the table for displaying passwords and breach counts.  <br /></td></tr>
+<tr class="separator:acff1645bbf9702607b8dec4097d6579d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77595ed3f5a0dd02f1d1295408a1d910" id="r_a77595ed3f5a0dd02f1d1295408a1d910"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77595ed3f5a0dd02f1d1295408a1d910">changePage</a> (int index)</td></tr>
 <tr class="memdesc:a77595ed3f5a0dd02f1d1295408a1d910"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switches the displayed page in the UI.  <br /></td></tr>
 <tr class="separator:a77595ed3f5a0dd02f1d1295408a1d910"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -183,15 +179,24 @@ Private Slots</h2></td></tr>
 <tr class="memitem:a939f292bb1b2bc20b12f73d969c1e47e" id="r_a939f292bb1b2bc20b12f73d969c1e47e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a939f292bb1b2bc20b12f73d969c1e47e">on_apiButton_clicked</a> ()</td></tr>
 <tr class="memdesc:a939f292bb1b2bc20b12f73d969c1e47e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot triggered when the user clicks the "Check" button.  <br /></td></tr>
 <tr class="separator:a939f292bb1b2bc20b12f73d969c1e47e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35d5a0266772f6ceb7524c07a8858277" id="r_a35d5a0266772f6ceb7524c07a8858277"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35d5a0266772f6ceb7524c07a8858277">on_checkAllPassButton_clicked</a> ()</td></tr>
+<tr class="memdesc:a35d5a0266772f6ceb7524c07a8858277"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initiates the password check process for all saved passwords.  <br /></td></tr>
+<tr class="separator:a35d5a0266772f6ceb7524c07a8858277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfff39eeb17f6820c3870c38a8318536" id="r_abfff39eeb17f6820c3870c38a8318536"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfff39eeb17f6820c3870c38a8318536">on_clearAllPassButton_clicked</a> ()</td></tr>
+<tr class="memdesc:abfff39eeb17f6820c3870c38a8318536"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears all contents from the password table and resets the row count.  <br /></td></tr>
+<tr class="separator:abfff39eeb17f6820c3870c38a8318536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a3bad52e4ba5ef041c1b71b1963765a" id="r_a2a3bad52e4ba5ef041c1b71b1963765a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a3bad52e4ba5ef041c1b71b1963765a">on_additInfoButton_clicked</a> ()</td></tr>
+<tr class="memdesc:a2a3bad52e4ba5ef041c1b71b1963765a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays additional information in a message box.  <br /></td></tr>
+<tr class="separator:a2a3bad52e4ba5ef041c1b71b1963765a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a12385ae48c212d833eaedb60d1ded665" id="r_a12385ae48c212d833eaedb60d1ded665"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a12385ae48c212d833eaedb60d1ded665">listWidgetSettings</a> ()</td></tr>
 <tr class="memdesc:a12385ae48c212d833eaedb60d1ded665"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies additional visual settings to the list widget.  <br /></td></tr>
 <tr class="separator:a12385ae48c212d833eaedb60d1ded665"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefdfd1ae5a5d45219f461474aef6dd9a" id="r_aefdfd1ae5a5d45219f461474aef6dd9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefdfd1ae5a5d45219f461474aef6dd9a">copyButtonsImages</a> ()</td></tr>
-<tr class="memdesc:aefdfd1ae5a5d45219f461474aef6dd9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads and sets images for the copy buttons.  <br /></td></tr>
-<tr class="separator:aefdfd1ae5a5d45219f461474aef6dd9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2a3b83b326e3e914ee4085255ee0760" id="r_ac2a3b83b326e3e914ee4085255ee0760"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2a3b83b326e3e914ee4085255ee0760">buttonsImages</a> ()</td></tr>
+<tr class="memdesc:ac2a3b83b326e3e914ee4085255ee0760"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads and sets images for the buttons.  <br /></td></tr>
+<tr class="separator:ac2a3b83b326e3e914ee4085255ee0760"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeacb0a807a5ac99be9f2468f20eac2da" id="r_aeacb0a807a5ac99be9f2468f20eac2da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeacb0a807a5ac99be9f2468f20eac2da">allignCenter</a> ()</td></tr>
 <tr class="memdesc:aeacb0a807a5ac99be9f2468f20eac2da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aligns UI elements to be properly centered.  <br /></td></tr>
 <tr class="separator:aeacb0a807a5ac99be9f2468f20eac2da"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,6 +209,15 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:aabed42410a9e1554d5e096aac628b705" id="r_aabed42410a9e1554d5e096aac628b705"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabed42410a9e1554d5e096aac628b705">totalPasswordsToCheck</a></td></tr>
+<tr class="memdesc:aabed42410a9e1554d5e096aac628b705"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total number of passwords that need to be checked.  <br /></td></tr>
+<tr class="separator:aabed42410a9e1554d5e096aac628b705"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a51d92bb0cbbc980646d6f68d25a424" id="r_a6a51d92bb0cbbc980646d6f68d25a424"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a51d92bb0cbbc980646d6f68d25a424">passwordsChecked</a></td></tr>
+<tr class="memdesc:a6a51d92bb0cbbc980646d6f68d25a424"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of passwords that have already been checked.  <br /></td></tr>
+<tr class="separator:a6a51d92bb0cbbc980646d6f68d25a424"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a948c58bdc7a64a7abf8b5256fd969571" id="r_a948c58bdc7a64a7abf8b5256fd969571"><td class="memItemLeft" align="right" valign="top">QMap&lt; <a class="el" href="classPwnedApiChecker.html">PwnedApiChecker</a> *, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a948c58bdc7a64a7abf8b5256fd969571">checkerRowMap</a></td></tr>
+<tr class="memdesc:a948c58bdc7a64a7abf8b5256fd969571"><td class="mdescLeft">&#160;</td><td class="mdescRight">A map that stores the row index for each <a class="el" href="classPwnedApiChecker.html" title="A class that provides functionality for checking if a password has been exposed in a data breach.">PwnedApiChecker</a> instance.  <br /></td></tr>
+<tr class="separator:a948c58bdc7a64a7abf8b5256fd969571"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35466a70ed47252a0191168126a352a5" id="r_a35466a70ed47252a0191168126a352a5"><td class="memItemLeft" align="right" valign="top">Ui::MainWindow *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35466a70ed47252a0191168126a352a5">ui</a></td></tr>
 <tr class="memdesc:a35466a70ed47252a0191168126a352a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the UI elements.  <br /></td></tr>
 <tr class="separator:a35466a70ed47252a0191168126a352a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -309,6 +323,33 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ac2a3b83b326e3e914ee4085255ee0760" name="ac2a3b83b326e3e914ee4085255ee0760"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2a3b83b326e3e914ee4085255ee0760">&#9670;&#160;</a></span>buttonsImages()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::buttonsImages </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Loads and sets images for the buttons. </p>
+
+</div>
+</div>
 <a id="a77595ed3f5a0dd02f1d1295408a1d910" name="a77595ed3f5a0dd02f1d1295408a1d910"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a77595ed3f5a0dd02f1d1295408a1d910">&#9670;&#160;</a></span>changePage</h2>
 
@@ -343,33 +384,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aefdfd1ae5a5d45219f461474aef6dd9a" name="aefdfd1ae5a5d45219f461474aef6dd9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefdfd1ae5a5d45219f461474aef6dd9a">&#9670;&#160;</a></span>copyButtonsImages()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MainWindow::copyButtonsImages </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Loads and sets images for the copy buttons. </p>
-
-</div>
-</div>
 <a id="a12385ae48c212d833eaedb60d1ded665" name="a12385ae48c212d833eaedb60d1ded665"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a12385ae48c212d833eaedb60d1ded665">&#9670;&#160;</a></span>listWidgetSettings()</h2>
 
@@ -394,6 +408,34 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Applies additional visual settings to the list widget. </p>
+
+</div>
+</div>
+<a id="a2a3bad52e4ba5ef041c1b71b1963765a" name="a2a3bad52e4ba5ef041c1b71b1963765a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a3bad52e4ba5ef041c1b71b1963765a">&#9670;&#160;</a></span>on_additInfoButton_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::on_additInfoButton_clicked </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Displays additional information in a message box. </p>
+<p>This method shows a message box with information about the integration of the application with "Have I Been Pwned" when the user clicks the additional info button. </p>
 
 </div>
 </div>
@@ -449,6 +491,62 @@ Private Attributes</h2></td></tr>
 
 <p>Slot triggered when the user clicks the "Check" button. </p>
 <p>This method retrieves the password entered by the user in the input field, creates an instance of the <a class="el" href="classPwnedApiChecker.html" title="A class that provides functionality for checking if a password has been exposed in a data breach.">PwnedApiChecker</a> class, and connects the <code>passwordChecked</code> signal to the <code>onPasswordChecked</code> slot. Then, it calls the <code>checkPassword</code> method to check the entered password against the "Have I Been Pwned" API. </p>
+
+</div>
+</div>
+<a id="a35d5a0266772f6ceb7524c07a8858277" name="a35d5a0266772f6ceb7524c07a8858277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35d5a0266772f6ceb7524c07a8858277">&#9670;&#160;</a></span>on_checkAllPassButton_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::on_checkAllPassButton_clicked </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initiates the password check process for all saved passwords. </p>
+<p>This method retrieves all saved passwords from the database, clears the existing password table, and then checks each password for breaches using the Have I Been Pwned API. If a password is found in breaches, it is added to the table with the corresponding breach count. The table is displayed after all passwords have been processed. </p>
+
+</div>
+</div>
+<a id="abfff39eeb17f6820c3870c38a8318536" name="abfff39eeb17f6820c3870c38a8318536"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfff39eeb17f6820c3870c38a8318536">&#9670;&#160;</a></span>on_clearAllPassButton_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::on_clearAllPassButton_clicked </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clears all contents from the password table and resets the row count. </p>
+<p>This method clears the content in all cells of the password table and resets the row count to 0, effectively clearing the displayed passwords and breach data. </p>
 
 </div>
 </div>
@@ -695,6 +793,45 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="acac1fd885add236d9f55a83f49073640" name="acac1fd885add236d9f55a83f49073640"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acac1fd885add236d9f55a83f49073640">&#9670;&#160;</a></span>onAllPasswordChecked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::onAllPasswordChecked </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>found</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>count</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handles the result of password breach checks for all passwords. </p>
+<p>This method is called when a password check completes, updating the table with the result of the breach check. If the password was found in breaches, the count of breaches is displayed. If the password is safe, a "Safe ✅" message is shown in the table. It also ensures proper cleanup by deleting the checker object.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">found</td><td>Indicates whether the password was found in any breaches. </td></tr>
+    <tr><td class="paramname">count</td><td>The number of breaches the password was found in, if any. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a8898a9388a90867526dfbaf4b3aa9d68" name="a8898a9388a90867526dfbaf4b3aa9d68"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8898a9388a90867526dfbaf4b3aa9d68">&#9670;&#160;</a></span>onPasswordChecked</h2>
 
@@ -764,6 +901,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="acff1645bbf9702607b8dec4097d6579d" name="acff1645bbf9702607b8dec4097d6579d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acff1645bbf9702607b8dec4097d6579d">&#9670;&#160;</a></span>setupTable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::setupTable </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets up the table for displaying passwords and breach counts. </p>
+<p>This method initializes the table widget by setting the column count to 2, configuring the column headers, and adjusting the header resizing modes. It also hides the vertical header, disables selection and editing features for the table cells. </p>
+
+</div>
+</div>
 <a id="a6f56f0a0042e9dffe42dcac45db2ed98" name="a6f56f0a0042e9dffe42dcac45db2ed98"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6f56f0a0042e9dffe42dcac45db2ed98">&#9670;&#160;</a></span>startProgramm()</h2>
 
@@ -792,6 +957,31 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a948c58bdc7a64a7abf8b5256fd969571" name="a948c58bdc7a64a7abf8b5256fd969571"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a948c58bdc7a64a7abf8b5256fd969571">&#9670;&#160;</a></span>checkerRowMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMap&lt;<a class="el" href="classPwnedApiChecker.html">PwnedApiChecker</a>*, int&gt; MainWindow::checkerRowMap</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A map that stores the row index for each <a class="el" href="classPwnedApiChecker.html" title="A class that provides functionality for checking if a password has been exposed in a data breach.">PwnedApiChecker</a> instance. </p>
+<p>This map associates a <code><a class="el" href="classPwnedApiChecker.html" title="A class that provides functionality for checking if a password has been exposed in a data breach.">PwnedApiChecker</a></code> instance with the row number in the password table where its results should be displayed. The key is the <code>PwnedApiChecker*</code>, and the value is the corresponding row index in the password table. </p>
+
+</div>
+</div>
 <a id="a53583d5f902ff759dd60e1a63bcdaaf4" name="a53583d5f902ff759dd60e1a63bcdaaf4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a53583d5f902ff759dd60e1a63bcdaaf4">&#9670;&#160;</a></span>database</h2>
 
@@ -813,22 +1003,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Handles database connection. </p>
-
-</div>
-</div>
-<a id="acc1acbf3a62067ef7c7479568791408e" name="acc1acbf3a62067ef7c7479568791408e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc1acbf3a62067ef7c7479568791408e">&#9670;&#160;</a></span>databaseManager</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classDatabaseManager.html">DatabaseManager</a> MainWindow::databaseManager</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Manages interactions with the password database. </p>
 
 </div>
 </div>
@@ -880,19 +1054,53 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a503bf0ceceec71294789fed42b2b676e" name="a503bf0ceceec71294789fed42b2b676e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a503bf0ceceec71294789fed42b2b676e">&#9670;&#160;</a></span>passwordGenerator</h2>
+<a id="a6a51d92bb0cbbc980646d6f68d25a424" name="a6a51d92bb0cbbc980646d6f68d25a424"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a51d92bb0cbbc980646d6f68d25a424">&#9670;&#160;</a></span>passwordsChecked</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPasswordGenerator.html">PasswordGenerator</a> MainWindow::passwordGenerator</td>
+          <td class="memname">int MainWindow::passwordsChecked</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Handles password generation. </p>
+<p>Number of passwords that have already been checked. </p>
+<p>This variable tracks the number of passwords that have already been checked against the "Have I Been Pwned" database. It is updated each time a password check is completed. </p>
+
+</div>
+</div>
+<a id="aabed42410a9e1554d5e096aac628b705" name="aabed42410a9e1554d5e096aac628b705"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabed42410a9e1554d5e096aac628b705">&#9670;&#160;</a></span>totalPasswordsToCheck</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MainWindow::totalPasswordsToCheck</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Total number of passwords that need to be checked. </p>
+<p>This variable holds the count of passwords that need to be checked against the "Have I Been Pwned" database. It is initialized before the checking process starts and is incremented during the check process. </p>
 
 </div>
 </div>
