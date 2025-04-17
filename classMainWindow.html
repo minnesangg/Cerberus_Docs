@@ -188,6 +188,12 @@ Private Slots</h2></td></tr>
 <tr class="memitem:a2a3bad52e4ba5ef041c1b71b1963765a" id="r_a2a3bad52e4ba5ef041c1b71b1963765a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2a3bad52e4ba5ef041c1b71b1963765a">on_additInfoButton_clicked</a> ()</td></tr>
 <tr class="memdesc:a2a3bad52e4ba5ef041c1b71b1963765a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays additional information in a message box.  <br /></td></tr>
 <tr class="separator:a2a3bad52e4ba5ef041c1b71b1963765a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9c3de81808265204ca219748b97a2d9" id="r_ad9c3de81808265204ca219748b97a2d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad9c3de81808265204ca219748b97a2d9">on_clearTableButton_clicked</a> ()</td></tr>
+<tr class="memdesc:ad9c3de81808265204ca219748b97a2d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the content of the table and resets its row count.  <br /></td></tr>
+<tr class="separator:ad9c3de81808265204ca219748b97a2d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c71bf053f146072b52decec7f04c255" id="r_a1c71bf053f146072b52decec7f04c255"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c71bf053f146072b52decec7f04c255">on_gmailSendButton_clicked</a> ()</td></tr>
+<tr class="memdesc:a1c71bf053f146072b52decec7f04c255"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends an email with the path to the passwords database.  <br /></td></tr>
+<tr class="separator:a1c71bf053f146072b52decec7f04c255"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -550,6 +556,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad9c3de81808265204ca219748b97a2d9" name="ad9c3de81808265204ca219748b97a2d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9c3de81808265204ca219748b97a2d9">&#9670;&#160;</a></span>on_clearTableButton_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::on_clearTableButton_clicked </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clears the content of the table and resets its row count. </p>
+<p>This method is called when the "Clear Table" button is clicked. It clears the contents of the table (ui-&gt;showPassTable) and resets the number of rows to zero. </p>
+
+</div>
+</div>
 <a id="add34b99b4f69f28fb3094110e6a8a0d8" name="add34b99b4f69f28fb3094110e6a8a0d8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#add34b99b4f69f28fb3094110e6a8a0d8">&#9670;&#160;</a></span>on_copyBufferButton_clicked</h2>
 
@@ -709,6 +743,35 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Handles password generation when the button is clicked. </p>
+
+</div>
+</div>
+<a id="a1c71bf053f146072b52decec7f04c255" name="a1c71bf053f146072b52decec7f04c255"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c71bf053f146072b52decec7f04c255">&#9670;&#160;</a></span>on_gmailSendButton_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::on_gmailSendButton_clicked </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sends an email with the path to the passwords database. </p>
+<p>This method is triggered when the "Send Gmail" button is clicked. It retrieves the Gmail address from the input field, checks if it is empty, and if not, it prepares to send the email using an external executable. The executable is determined based on the operating system (Linux or Windows) and is passed the Gmail address and the path to the passwords database.</p>
+<dl class="section note"><dt>Note</dt><dd>If the input field is empty, a message will be displayed on the status bar. </dd></dl>
 
 </div>
 </div>

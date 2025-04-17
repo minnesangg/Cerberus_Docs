@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ui_0',['ui',['../classDialogLogin.html#ad2d064db0d8c0d2381cf226f9af0709f',1,'DialogLogin::ui'],['../classMainWindow.html#a35466a70ed47252a0191168126a352a5',1,'MainWindow::ui']]]
+  ['receiver_5femail_0',['receiver_email',['../namespacesend__email.html#a39e373b556bad40a0f36adf1265104d8',1,'send_email']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ui_0',['Ui',['../namespaceUi.html',1,'']]]
+  ['send_5femail_0',['send_email',['../namespacesend__email.html',1,'']]]
 ];
