@@ -126,6 +126,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa162d97472e6c31a4e873adda435dbb6" id="r_aa162d97472e6c31a4e873adda435dbb6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa162d97472e6c31a4e873adda435dbb6">DatabaseManager</a> ()</td></tr>
 <tr class="memdesc:aa162d97472e6c31a4e873adda435dbb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classDatabaseManager.html" title="The DatabaseManager class.">DatabaseManager</a> object.  <br /></td></tr>
 <tr class="separator:aa162d97472e6c31a4e873adda435dbb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae76e3e6458431aec7fd54332300e60ac" id="r_ae76e3e6458431aec7fd54332300e60ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae76e3e6458431aec7fd54332300e60ac">setDatabasePath</a> (const QString &amp;path)</td></tr>
+<tr class="memdesc:ae76e3e6458431aec7fd54332300e60ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the path to the database file.  <br /></td></tr>
+<tr class="separator:ae76e3e6458431aec7fd54332300e60ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af755b98e0f96d65d0ea2a07274f27159" id="r_af755b98e0f96d65d0ea2a07274f27159"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af755b98e0f96d65d0ea2a07274f27159">initDatabase</a> ()</td></tr>
 <tr class="memdesc:af755b98e0f96d65d0ea2a07274f27159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the database connection.  <br /></td></tr>
 <tr class="separator:af755b98e0f96d65d0ea2a07274f27159"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,6 +153,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ae3277df8d622a685ad084cb8f85be8d3" id="r_ae3277df8d622a685ad084cb8f85be8d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classMasterPassword.html">MasterPassword</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3277df8d622a685ad084cb8f85be8d3">master_password</a></td></tr>
 <tr class="memdesc:ae3277df8d622a685ad084cb8f85be8d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Object for handling the master password.  <br /></td></tr>
 <tr class="separator:ae3277df8d622a685ad084cb8f85be8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad51bbb0ad9f91c50bd86bc190df8ed99" id="r_ad51bbb0ad9f91c50bd86bc190df8ed99"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad51bbb0ad9f91c50bd86bc190df8ed99">dbPath</a></td></tr>
+<tr class="memdesc:ad51bbb0ad9f91c50bd86bc190df8ed99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Database path.  <br /></td></tr>
+<tr class="separator:ad51bbb0ad9f91c50bd86bc190df8ed99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classDatabaseManager.html" title="The DatabaseManager class.">DatabaseManager</a> class. </p>
@@ -295,7 +301,57 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae76e3e6458431aec7fd54332300e60ac" name="ae76e3e6458431aec7fd54332300e60ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae76e3e6458431aec7fd54332300e60ac">&#9670;&#160;</a></span>setDatabasePath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DatabaseManager::setDatabasePath </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the path to the database file. </p>
+<p>This method stores the path to the SQLite database file, which will be used by the application to open and manage the database.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">path</td><td>The absolute or relative path to the SQLite database file. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad51bbb0ad9f91c50bd86bc190df8ed99" name="ad51bbb0ad9f91c50bd86bc190df8ed99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad51bbb0ad9f91c50bd86bc190df8ed99">&#9670;&#160;</a></span>dbPath</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QString DatabaseManager::dbPath</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Database path. </p>
+
+</div>
+</div>
 <a id="ae3277df8d622a685ad084cb8f85be8d3" name="ae3277df8d622a685ad084cb8f85be8d3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae3277df8d622a685ad084cb8f85be8d3">&#9670;&#160;</a></span>master_password</h2>
 

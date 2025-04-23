@@ -194,6 +194,12 @@ Private Slots</h2></td></tr>
 <tr class="memitem:a1c71bf053f146072b52decec7f04c255" id="r_a1c71bf053f146072b52decec7f04c255"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c71bf053f146072b52decec7f04c255">on_gmailSendButton_clicked</a> ()</td></tr>
 <tr class="memdesc:a1c71bf053f146072b52decec7f04c255"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends an email with the path to the passwords database.  <br /></td></tr>
 <tr class="separator:a1c71bf053f146072b52decec7f04c255"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a118154d91c821652152b844344c1ca64" id="r_a118154d91c821652152b844344c1ca64"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a118154d91c821652152b844344c1ca64">on_chooseFileButton_clicked</a> ()</td></tr>
+<tr class="memdesc:a118154d91c821652152b844344c1ca64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the file selection for importing a new database.  <br /></td></tr>
+<tr class="separator:a118154d91c821652152b844344c1ca64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad622606524ad9374c7c909f714867f00" id="r_ad622606524ad9374c7c909f714867f00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad622606524ad9374c7c909f714867f00">on_backupInfoButton_clicked</a> ()</td></tr>
+<tr class="memdesc:ad622606524ad9374c7c909f714867f00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows information about data security.  <br /></td></tr>
+<tr class="separator:ad622606524ad9374c7c909f714867f00"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -500,6 +506,34 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad622606524ad9374c7c909f714867f00" name="ad622606524ad9374c7c909f714867f00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad622606524ad9374c7c909f714867f00">&#9670;&#160;</a></span>on_backupInfoButton_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::on_backupInfoButton_clicked </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Shows information about data security. </p>
+<p>Displays a message box explaining that all passwords in the database are encrypted before being stored or transmitted. </p>
+
+</div>
+</div>
 <a id="a35d5a0266772f6ceb7524c07a8858277" name="a35d5a0266772f6ceb7524c07a8858277"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a35d5a0266772f6ceb7524c07a8858277">&#9670;&#160;</a></span>on_checkAllPassButton_clicked</h2>
 
@@ -525,6 +559,35 @@ Private Attributes</h2></td></tr>
 
 <p>Initiates the password check process for all saved passwords. </p>
 <p>This method retrieves all saved passwords from the database, clears the existing password table, and then checks each password for breaches using the Have I Been Pwned API. If a password is found in breaches, it is added to the table with the corresponding breach count. The table is displayed after all passwords have been processed. </p>
+
+</div>
+</div>
+<a id="a118154d91c821652152b844344c1ca64" name="a118154d91c821652152b844344c1ca64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a118154d91c821652152b844344c1ca64">&#9670;&#160;</a></span>on_chooseFileButton_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::on_chooseFileButton_clicked </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handles the file selection for importing a new database. </p>
+<p>Opens a file dialog to let the user select a <code>.db</code> file. If a file is selected, the current database connection is closed and removed, and the selected database file is copied into the application directory. If a database with the same name already exists, it is overwritten.</p>
+<p>Displays a status message in the status bar to indicate success or failure. </p>
 
 </div>
 </div>
