@@ -6,5 +6,6 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "mainwindow.cpp", "mainwindow_8cpp.html", null ],
     [ "masterpassword.cpp", "masterpassword_8cpp.html", null ],
     [ "password_generator.cpp", "password__generator_8cpp.html", null ],
-    [ "pwnedapichecker.cpp", "pwnedapichecker_8cpp.html", null ]
+    [ "pwnedapichecker.cpp", "pwnedapichecker_8cpp.html", null ],
+    [ "settings.cpp", "settings_8cpp.html", null ]
 ];

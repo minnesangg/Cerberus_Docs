@@ -23,12 +23,14 @@ var classMainWindow =
     [ "on_generateButton_clicked", "classMainWindow.html#a6f07e911e9368f6643afa0aed2272353", null ],
     [ "on_generateInfoButton_clicked", "classMainWindow.html#a8cc49d1fab8239d4bf558d6e304240c2", null ],
     [ "on_gmailSendButton_clicked", "classMainWindow.html#a1c71bf053f146072b52decec7f04c255", null ],
+    [ "on_languageButton_clicked", "classMainWindow.html#a99cc399f53bbd0ce090bd94982bbc038", null ],
     [ "on_savePassButton_clicked", "classMainWindow.html#ae961a7bb0b1d2546b0156c4d4b52589a", null ],
     [ "on_showAllButton_clicked", "classMainWindow.html#a09518731bd494fbb6c416403645dd16d", null ],
     [ "on_showButton_clicked", "classMainWindow.html#aa2e1465652da4dbd80b65ff6dc4cfead", null ],
     [ "onAllPasswordChecked", "classMainWindow.html#acac1fd885add236d9f55a83f49073640", null ],
     [ "onPasswordChecked", "classMainWindow.html#a8898a9388a90867526dfbaf4b3aa9d68", null ],
     [ "openStyleFile", "classMainWindow.html#a6ba4e84b746fee0927c53d89b471b1df", null ],
+    [ "setupComboBox", "classMainWindow.html#a16e1bd5551195d131e8ee27f240daafa", null ],
     [ "setupTable", "classMainWindow.html#acff1645bbf9702607b8dec4097d6579d", null ],
     [ "startProgramm", "classMainWindow.html#a6f56f0a0042e9dffe42dcac45db2ed98", null ],
     [ "checkerRowMap", "classMainWindow.html#a948c58bdc7a64a7abf8b5256fd969571", null ],
@@ -36,6 +38,7 @@ var classMainWindow =
     [ "masterPasswordHandler", "classMainWindow.html#a9e742edf3497d4fdc2179b3f169fcaf5", null ],
     [ "password_generator", "classMainWindow.html#a369f0559aa971c10e7be951bc30279e9", null ],
     [ "passwordsChecked", "classMainWindow.html#a6a51d92bb0cbbc980646d6f68d25a424", null ],
+    [ "settings", "classMainWindow.html#a562b679480d01ca3ec6e630e827c865d", null ],
     [ "totalPasswordsToCheck", "classMainWindow.html#aabed42410a9e1554d5e096aac628b705", null ],
     [ "ui", "classMainWindow.html#a35466a70ed47252a0191168126a352a5", null ]
 ];

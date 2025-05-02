@@ -5,5 +5,6 @@ var annotated_dup =
     [ "MainWindow", "classMainWindow.html", "classMainWindow" ],
     [ "MasterPassword", "classMasterPassword.html", "classMasterPassword" ],
     [ "PasswordGenerator", "classPasswordGenerator.html", "classPasswordGenerator" ],
-    [ "PwnedApiChecker", "classPwnedApiChecker.html", "classPwnedApiChecker" ]
+    [ "PwnedApiChecker", "classPwnedApiChecker.html", "classPwnedApiChecker" ],
+    [ "Settings", "classSettings.html", "classSettings" ]
 ];

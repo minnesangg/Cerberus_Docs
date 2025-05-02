@@ -7,7 +7,8 @@ var hierarchy =
       [ "MainWindow", "classMainWindow.html", null ]
     ] ],
     [ "QObject", null, [
-      [ "PwnedApiChecker", "classPwnedApiChecker.html", null ]
+      [ "PwnedApiChecker", "classPwnedApiChecker.html", null ],
+      [ "Settings", "classSettings.html", null ]
     ] ],
     [ "QWidget", null, [
       [ "DatabaseManager", "classDatabaseManager.html", null ],

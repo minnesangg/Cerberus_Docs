@@ -203,6 +203,9 @@ Private Slots</h2></td></tr>
 <tr class="memitem:a8cc49d1fab8239d4bf558d6e304240c2" id="r_a8cc49d1fab8239d4bf558d6e304240c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cc49d1fab8239d4bf558d6e304240c2">on_generateInfoButton_clicked</a> ()</td></tr>
 <tr class="memdesc:a8cc49d1fab8239d4bf558d6e304240c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the click event of the "Send Gmail Backup" button.  <br /></td></tr>
 <tr class="separator:a8cc49d1fab8239d4bf558d6e304240c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99cc399f53bbd0ce090bd94982bbc038" id="r_a99cc399f53bbd0ce090bd94982bbc038"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99cc399f53bbd0ce090bd94982bbc038">on_languageButton_clicked</a> ()</td></tr>
+<tr class="memdesc:a99cc399f53bbd0ce090bd94982bbc038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggered when the language selection button is clicked.  <br /></td></tr>
+<tr class="separator:a99cc399f53bbd0ce090bd94982bbc038"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -218,6 +221,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a6ba4e84b746fee0927c53d89b471b1df" id="r_a6ba4e84b746fee0927c53d89b471b1df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ba4e84b746fee0927c53d89b471b1df">openStyleFile</a> ()</td></tr>
 <tr class="memdesc:a6ba4e84b746fee0927c53d89b471b1df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens and applies a custom style file for UI appearance.  <br /></td></tr>
 <tr class="separator:a6ba4e84b746fee0927c53d89b471b1df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16e1bd5551195d131e8ee27f240daafa" id="r_a16e1bd5551195d131e8ee27f240daafa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16e1bd5551195d131e8ee27f240daafa">setupComboBox</a> ()</td></tr>
+<tr class="memdesc:a16e1bd5551195d131e8ee27f240daafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up the language selection combo box with available options.  <br /></td></tr>
+<tr class="separator:a16e1bd5551195d131e8ee27f240daafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f56f0a0042e9dffe42dcac45db2ed98" id="r_a6f56f0a0042e9dffe42dcac45db2ed98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f56f0a0042e9dffe42dcac45db2ed98">startProgramm</a> ()</td></tr>
 <tr class="memdesc:a6f56f0a0042e9dffe42dcac45db2ed98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes application logic and state on startup.  <br /></td></tr>
 <tr class="separator:a6f56f0a0042e9dffe42dcac45db2ed98"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -248,6 +254,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a53583d5f902ff759dd60e1a63bcdaaf4" id="r_a53583d5f902ff759dd60e1a63bcdaaf4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classDatabaseManager.html">DatabaseManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53583d5f902ff759dd60e1a63bcdaaf4">database</a></td></tr>
 <tr class="memdesc:a53583d5f902ff759dd60e1a63bcdaaf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles database connection.  <br /></td></tr>
 <tr class="separator:a53583d5f902ff759dd60e1a63bcdaaf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a562b679480d01ca3ec6e630e827c865d" id="r_a562b679480d01ca3ec6e630e827c865d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classSettings.html">Settings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a562b679480d01ca3ec6e630e827c865d">settings</a></td></tr>
+<tr class="memdesc:a562b679480d01ca3ec6e630e827c865d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles settings connection.  <br /></td></tr>
+<tr class="separator:a562b679480d01ca3ec6e630e827c865d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classMainWindow.html" title="The MainWindow class.">MainWindow</a> class. </p>
@@ -263,7 +272,7 @@ Private Attributes</h2></td></tr>
 <li>Generate Passwords: Interface for creating new passwords.</li>
 <li>Categories: For organizing passwords into different categories.</li>
 <li>Check Password: To verify if a password is secure.</li>
-<li>Settings: Customization of application preferences, themes, and languages.</li>
+<li><a class="el" href="classSettings.html" title="The Settings class. Manages application settings such as interface language.">Settings</a>: Customization of application preferences, themes, and languages.</li>
 </ul>
 <p>The navigation between these pages is handled using a ListWidget. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -914,6 +923,42 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a99cc399f53bbd0ce090bd94982bbc038" name="a99cc399f53bbd0ce090bd94982bbc038"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99cc399f53bbd0ce090bd94982bbc038">&#9670;&#160;</a></span>on_languageButton_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::on_languageButton_clicked </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Triggered when the language selection button is clicked. </p>
+<p>Retrieves the selected language code from the <code>languageCombo</code> combo box and attempts to apply and save the new language via the <code><a class="el" href="classSettings.html" title="The Settings class. Manages application settings such as interface language.">Settings</a></code> class. If successful, the UI is retransformed to reflect the new translation.</p>
+<p>Updates include:</p><ul>
+<li>Status bar message showing result</li>
+<li>Calling <code>retranslateUi()</code> to reapply translations</li>
+<li>Resetting the main window title</li>
+<li>Refreshing the contents of <code>listWidget</code></li>
+<li>Re-aligning elements via <code><a class="el" href="#aeacb0a807a5ac99be9f2468f20eac2da" title="Aligns UI elements to be properly centered.">allignCenter()</a></code></li>
+</ul>
+<p>Displays error messages in case the translation fails to load or cannot be saved. </p>
+
+</div>
+</div>
 <a id="ae961a7bb0b1d2546b0156c4d4b52589a" name="ae961a7bb0b1d2546b0156c4d4b52589a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae961a7bb0b1d2546b0156c4d4b52589a">&#9670;&#160;</a></span>on_savePassButton_clicked</h2>
 
@@ -1103,6 +1148,40 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a16e1bd5551195d131e8ee27f240daafa" name="a16e1bd5551195d131e8ee27f240daafa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16e1bd5551195d131e8ee27f240daafa">&#9670;&#160;</a></span>setupComboBox()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::setupComboBox </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets up the language selection combo box with available options. </p>
+<p>This method populates the <code>languageCombo</code> widget with human-readable language names (localized using <code>tr()</code>) and associates each item with its internal language code using Qt::UserRole.</p>
+<p>Supported languages:</p><ul>
+<li>English</li>
+<li>Russian</li>
+<li>Ukrainian</li>
+</ul>
+<p>The internal value (e.g. "English") is later used to load the corresponding translation file. </p>
+
+</div>
+</div>
 <a id="acff1645bbf9702607b8dec4097d6579d" name="acff1645bbf9702607b8dec4097d6579d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acff1645bbf9702607b8dec4097d6579d">&#9670;&#160;</a></span>setupTable</h2>
 
@@ -1278,6 +1357,30 @@ Private Attributes</h2></td></tr>
 
 <p>Number of passwords that have already been checked. </p>
 <p>This variable tracks the number of passwords that have already been checked against the "Have I Been Pwned" database. It is updated each time a password check is completed. </p>
+
+</div>
+</div>
+<a id="a562b679480d01ca3ec6e630e827c865d" name="a562b679480d01ca3ec6e630e827c865d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a562b679480d01ca3ec6e630e827c865d">&#9670;&#160;</a></span>settings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classSettings.html">Settings</a> MainWindow::settings</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handles settings connection. </p>
 
 </div>
 </div>
