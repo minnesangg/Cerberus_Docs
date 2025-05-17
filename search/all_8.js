@@ -1,19 +1,6 @@
 var searchData=
 [
-  ['main_0',['main',['../main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main.cpp']]],
-  ['main_2ecpp_1',['main.cpp',['../main_8cpp.html',1,'']]],
-  ['maintype_2',['maintype',['../namespacesend__email.html#a4517487334cfbdb6801294cb8e9d5bd0',1,'send_email']]],
-  ['mainwindow_3',['MainWindow',['../classMainWindow.html',1,'MainWindow'],['../classMainWindow.html#a996c5a2b6f77944776856f08ec30858d',1,'MainWindow::MainWindow()']]],
-  ['mainwindow_2ecpp_4',['mainwindow.cpp',['../mainwindow_8cpp.html',1,'']]],
-  ['mainwindow_2eh_5',['mainwindow.h',['../mainwindow_8h.html',1,'']]],
-  ['manager_6',['manager',['../classPwnedApiChecker.html#af90dea1346c7634cd15b8e9ca69ee9f1',1,'PwnedApiChecker']]],
-  ['master_5fpass_7',['master_pass',['../classDialogLogin.html#aa94a1718ad5ac21a3ddee1c6cd7a56bb',1,'DialogLogin']]],
-  ['master_5fpassword_8',['master_password',['../classDatabaseManager.html#ae3277df8d622a685ad084cb8f85be8d3',1,'DatabaseManager']]],
-  ['masterpassstacked_9',['masterPassStacked',['../classDialogLogin.html#a24a776df770af2c496bbf80377b60103',1,'DialogLogin']]],
-  ['masterpassword_10',['MasterPassword',['../classMasterPassword.html',1,'MasterPassword'],['../classMasterPassword.html#aab1b03d42c6eff787598c3db45c32f01',1,'MasterPassword::MasterPassword()']]],
-  ['masterpassword_11',['masterPassword',['../classMasterPassword.html#ad476e056a17eb73dbc1ac6b2d1ec9083',1,'MasterPassword']]],
-  ['masterpassword_2ecpp_12',['masterpassword.cpp',['../masterpassword_8cpp.html',1,'']]],
-  ['masterpassword_2eh_13',['masterpassword.h',['../masterpassword_8h.html',1,'']]],
-  ['masterpasswordhandler_14',['masterPasswordHandler',['../classMainWindow.html#a9e742edf3497d4fdc2179b3f169fcaf5',1,'MainWindow']]],
-  ['msg_15',['msg',['../namespacesend__email.html#a72d43c14ab353be93f0ea18ed295a6bb',1,'send_email']]]
+  ['listwidgetsettings_0',['listWidgetSettings',['../classMainWindow.html#a12385ae48c212d833eaedb60d1ded665',1,'MainWindow']]],
+  ['loadpasswords_1',['loadPasswords',['../classDatabaseManager.html#a636e09be2019233a75699e5bb8b37057',1,'DatabaseManager']]],
+  ['loadsettings_2',['loadSettings',['../classSettings.html#aeedbd7f125f99ea2ecfe52c024c5e645',1,'Settings']]]
 ];

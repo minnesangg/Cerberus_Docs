@@ -2,6 +2,7 @@ var annotated_dup =
 [
     [ "DatabaseManager", "classDatabaseManager.html", "classDatabaseManager" ],
     [ "DialogLogin", "classDialogLogin.html", "classDialogLogin" ],
+    [ "InactivityWatcher", "classInactivityWatcher.html", "classInactivityWatcher" ],
     [ "MainWindow", "classMainWindow.html", "classMainWindow" ],
     [ "MasterPassword", "classMasterPassword.html", "classMasterPassword" ],
     [ "PasswordGenerator", "classPasswordGenerator.html", "classPasswordGenerator" ],

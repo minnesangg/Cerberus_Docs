@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['updatestyles_0',['updateStyles',['../classDialogLogin.html#ad18fa2a5ed9945d78e91692ac865a50d',1,'DialogLogin']]]
+  ['resettimer_0',['resetTimer',['../classInactivityWatcher.html#a773aed3003d3a979debd1fecc4b7fe03',1,'InactivityWatcher']]]
 ];

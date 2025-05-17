@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['filename_0',['filename',['../namespacesend__email.html#a2d9e7eb9b68a45bd6648c3dbbd940ab9',1,'send_email']]]
+  ['eventfilter_0',['eventFilter',['../classInactivityWatcher.html#a99b8d78130e8f54ce9984653e2a51f0e',1,'InactivityWatcher']]]
 ];

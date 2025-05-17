@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['passwordgenerator_0',['PasswordGenerator',['../classPasswordGenerator.html',1,'']]],
-  ['pwnedapichecker_1',['PwnedApiChecker',['../classPwnedApiChecker.html',1,'']]]
+  ['mainwindow_0',['MainWindow',['../classMainWindow.html',1,'']]],
+  ['masterpassword_1',['MasterPassword',['../classMasterPassword.html',1,'']]]
 ];

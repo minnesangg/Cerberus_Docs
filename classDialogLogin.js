@@ -7,5 +7,6 @@ var classDialogLogin =
     [ "updateStyles", "classDialogLogin.html#ad18fa2a5ed9945d78e91692ac865a50d", null ],
     [ "master_pass", "classDialogLogin.html#aa94a1718ad5ac21a3ddee1c6cd7a56bb", null ],
     [ "masterPassStacked", "classDialogLogin.html#a24a776df770af2c496bbf80377b60103", null ],
+    [ "settingsHandler", "classDialogLogin.html#a092fc13b12c54bf939cc0c44b6e14419", null ],
     [ "ui", "classDialogLogin.html#ad2d064db0d8c0d2381cf226f9af0709f", null ]
 ];

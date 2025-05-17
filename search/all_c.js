@@ -1,20 +1,5 @@
 var searchData=
 [
-  ['savedpasswords_0',['savedPasswords',['../classDatabaseManager.html#a8f6c5ac11a57c5743cec4dbc2219f6be',1,'DatabaseManager']]],
-  ['savelanguage_1',['saveLanguage',['../classSettings.html#abc2c222cb795250c0f05b74126bb808f',1,'Settings']]],
-  ['savepassword_2',['savePassword',['../classDatabaseManager.html#acfaf1cf661261aef419376ad4683d6dc',1,'DatabaseManager']]],
-  ['securerandombytes_3',['secureRandomBytes',['../classPasswordGenerator.html#aa5502f373aacefa2762fabacc70cd616',1,'PasswordGenerator']]],
-  ['send_5femail_4',['send_email',['../namespacesend__email.html',1,'']]],
-  ['send_5femail_2epy_5',['send_email.py',['../send__email_8py.html',1,'']]],
-  ['sender_5femail_6',['sender_email',['../namespacesend__email.html#a551c1ebf964e3a038d44629acec90180',1,'send_email']]],
-  ['setdatabasepath_7',['setDatabasePath',['../classDatabaseManager.html#ae76e3e6458431aec7fd54332300e60ac',1,'DatabaseManager']]],
-  ['setlanguage_8',['setLanguage',['../classSettings.html#af2a07e55b32e20d857f3fd084231fdbb',1,'Settings']]],
-  ['settings_9',['Settings',['../classSettings.html',1,'Settings'],['../classSettings.html#a3abd21a33038a6a9392f9d79eece8a89',1,'Settings::Settings()']]],
-  ['settings_10',['settings',['../classMainWindow.html#a562b679480d01ca3ec6e630e827c865d',1,'MainWindow::settings'],['../classSettings.html#a27007d7a6b2aabe85f8470d04e9d3162',1,'Settings::settings']]],
-  ['settings_2ecpp_11',['settings.cpp',['../settings_8cpp.html',1,'']]],
-  ['settings_2eh_12',['settings.h',['../settings_8h.html',1,'']]],
-  ['setupcombobox_13',['setupComboBox',['../classMainWindow.html#a16e1bd5551195d131e8ee27f240daafa',1,'MainWindow']]],
-  ['setuptable_14',['setupTable',['../classMainWindow.html#acff1645bbf9702607b8dec4097d6579d',1,'MainWindow']]],
-  ['startprogramm_15',['startProgramm',['../classMainWindow.html#a6f56f0a0042e9dffe42dcac45db2ed98',1,'MainWindow']]],
-  ['subtype_16',['subtype',['../namespacesend__email.html#a1cf634751a8b49d8f4134926c7b9e116',1,'send_email']]]
+  ['receiver_5femail_0',['receiver_email',['../namespacesend__email.html#a39e373b556bad40a0f36adf1265104d8',1,'send_email']]],
+  ['resettimer_1',['resetTimer',['../classInactivityWatcher.html#a773aed3003d3a979debd1fecc4b7fe03',1,'InactivityWatcher']]]
 ];

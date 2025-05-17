@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['listwidgetsettings_0',['listWidgetSettings',['../classMainWindow.html#a12385ae48c212d833eaedb60d1ded665',1,'MainWindow']]],
-  ['loadpasswords_1',['loadPasswords',['../classDatabaseManager.html#a636e09be2019233a75699e5bb8b37057',1,'DatabaseManager']]],
-  ['loadsettings_2',['loadSettings',['../classSettings.html#aeedbd7f125f99ea2ecfe52c024c5e645',1,'Settings']]]
+  ['inactivitywatcher_0',['InactivityWatcher',['../classInactivityWatcher.html#a1f67ca699ab50945fecca6612e5ee746',1,'InactivityWatcher']]],
+  ['initdatabase_1',['initDatabase',['../classDatabaseManager.html#af755b98e0f96d65d0ea2a07274f27159',1,'DatabaseManager']]]
 ];
