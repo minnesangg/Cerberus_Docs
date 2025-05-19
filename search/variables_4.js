@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['inactivitywatcher_0',['inactivityWatcher',['../classSettings.html#a4044eda6f175aca8c2d6ac4b49a1f274',1,'Settings']]]
+  ['gmailsender_0',['gmailSender',['../classMainWindow.html#a9262ab606c3bdc808f71e34e3713dbe1',1,'MainWindow']]]
 ];

@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['ui_0',['ui',['../classDialogLogin.html#ad2d064db0d8c0d2381cf226f9af0709f',1,'DialogLogin::ui'],['../classMainWindow.html#a35466a70ed47252a0191168126a352a5',1,'MainWindow::ui']]]
+  ['timeout_0',['timeout',['../classInactivityWatcher.html#af01e71f850908732a045de8d00979980',1,'InactivityWatcher']]],
+  ['timer_1',['timer',['../classInactivityWatcher.html#ab6559a3859ad96596e0aefec1089be06',1,'InactivityWatcher']]],
+  ['totalpasswordstocheck_2',['totalPasswordsToCheck',['../classMainWindow.html#aabed42410a9e1554d5e096aac628b705',1,'MainWindow']]]
 ];

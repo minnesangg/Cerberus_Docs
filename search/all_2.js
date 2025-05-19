@@ -5,6 +5,6 @@ var searchData=
   ['checkmasterpass_2',['checkMasterPass',['../classMasterPassword.html#afca02ffd87a636caaa84130c686b1057',1,'MasterPassword']]],
   ['checkpassword_3',['checkPassword',['../classPwnedApiChecker.html#abd6a54eab5fb86a993e9561fec69dc78',1,'PwnedApiChecker']]],
   ['config_4',['config',['../namespacesend__email.html#a8a4103365804444a4bb4374595f92872',1,'send_email']]],
-  ['confirmoperation_5',['confirmOperation',['../classMainWindow.html#ae8b123f512ad0eff50de9793b0f33aa4',1,'MainWindow']]],
+  ['confirmoperation_5',['confirmOperation',['../classGmailSender.html#ac1dbb76fc4262e240acb692d8f2ca72b',1,'GmailSender']]],
   ['context_6',['context',['../namespacesend__email.html#a58a8889fba869b9928759a93c7c4c569',1,'send_email']]]
 ];

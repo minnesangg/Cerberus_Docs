@@ -1,8 +1,4 @@
 var searchData=
 [
-  ['savedpasswords_0',['savedPasswords',['../classDatabaseManager.html#a8f6c5ac11a57c5743cec4dbc2219f6be',1,'DatabaseManager']]],
-  ['sender_5femail_1',['sender_email',['../namespacesend__email.html#a551c1ebf964e3a038d44629acec90180',1,'send_email']]],
-  ['settings_2',['settings',['../classMainWindow.html#a562b679480d01ca3ec6e630e827c865d',1,'MainWindow::settings'],['../classSettings.html#a27007d7a6b2aabe85f8470d04e9d3162',1,'Settings::settings']]],
-  ['settingshandler_3',['settingsHandler',['../classDialogLogin.html#a092fc13b12c54bf939cc0c44b6e14419',1,'DialogLogin']]],
-  ['subtype_4',['subtype',['../namespacesend__email.html#a1cf634751a8b49d8f4134926c7b9e116',1,'send_email']]]
+  ['receiver_5femail_0',['receiver_email',['../namespacesend__email.html#a39e373b556bad40a0f36adf1265104d8',1,'send_email']]]
 ];

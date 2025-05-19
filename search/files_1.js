@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['inactivitywatcher_2ecpp_0',['inactivitywatcher.cpp',['../inactivitywatcher_8cpp.html',1,'']]],
-  ['inactivitywatcher_2eh_1',['inactivitywatcher.h',['../inactivitywatcher_8h.html',1,'']]]
+  ['gmailsender_2ecpp_0',['gmailsender.cpp',['../gmailsender_8cpp.html',1,'']]],
+  ['gmailsender_2eh_1',['gmailsender.h',['../gmailsender_8h.html',1,'']]]
 ];

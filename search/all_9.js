@@ -14,6 +14,6 @@ var searchData=
   ['masterpassword_11',['masterPassword',['../classMasterPassword.html#ad476e056a17eb73dbc1ac6b2d1ec9083',1,'MasterPassword']]],
   ['masterpassword_2ecpp_12',['masterpassword.cpp',['../masterpassword_8cpp.html',1,'']]],
   ['masterpassword_2eh_13',['masterpassword.h',['../masterpassword_8h.html',1,'']]],
-  ['masterpasswordhandler_14',['masterPasswordHandler',['../classMainWindow.html#a9e742edf3497d4fdc2179b3f169fcaf5',1,'MainWindow']]],
+  ['masterpasswordhandler_14',['masterPasswordHandler',['../classGmailSender.html#ac08c01ea42205d0cce3b6915815b9b2c',1,'GmailSender::masterPasswordHandler'],['../classMainWindow.html#a9e742edf3497d4fdc2179b3f169fcaf5',1,'MainWindow::masterPasswordHandler']]],
   ['msg_15',['msg',['../namespacesend__email.html#a72d43c14ab353be93f0ea18ed295a6bb',1,'send_email']]]
 ];

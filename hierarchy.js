@@ -13,6 +13,7 @@ var hierarchy =
     ] ],
     [ "QWidget", null, [
       [ "DatabaseManager", "classDatabaseManager.html", null ],
+      [ "GmailSender", "classGmailSender.html", null ],
       [ "MasterPassword", "classMasterPassword.html", null ],
       [ "PasswordGenerator", "classPasswordGenerator.html", null ]
     ] ]

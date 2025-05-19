@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['inactivitywatcher_0',['InactivityWatcher',['../classInactivityWatcher.html',1,'']]]
+  ['gmailsender_0',['GmailSender',['../classGmailSender.html',1,'']]]
 ];
