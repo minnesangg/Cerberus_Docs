@@ -203,6 +203,21 @@ Private Slots</h2></td></tr>
 <tr class="memitem:aa8468141adacc60d6907f55129d5671f" id="r_aa8468141adacc60d6907f55129d5671f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8468141adacc60d6907f55129d5671f">on_changeMPButton_clicked</a> ()</td></tr>
 <tr class="memdesc:aa8468141adacc60d6907f55129d5671f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot triggered when the "Change Master Password" button is clicked.  <br /></td></tr>
 <tr class="separator:aa8468141adacc60d6907f55129d5671f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab07ae4ed3ae1d6a7381abca475f16811" id="r_ab07ae4ed3ae1d6a7381abca475f16811"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab07ae4ed3ae1d6a7381abca475f16811">on_bindCategoryButton_clicked</a> ()</td></tr>
+<tr class="memdesc:ab07ae4ed3ae1d6a7381abca475f16811"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot triggered when the "Bind Category" button is clicked.  <br /></td></tr>
+<tr class="separator:ab07ae4ed3ae1d6a7381abca475f16811"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d1e795ab16ded7c88af836d6cf17559" id="r_a9d1e795ab16ded7c88af836d6cf17559"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d1e795ab16ded7c88af836d6cf17559">on_newCategButton_clicked</a> ()</td></tr>
+<tr class="memdesc:a9d1e795ab16ded7c88af836d6cf17559"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot triggered when the "New Category" button is clicked.  <br /></td></tr>
+<tr class="separator:a9d1e795ab16ded7c88af836d6cf17559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5878f92681dfc24715413d0c5a972cf" id="r_aa5878f92681dfc24715413d0c5a972cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa5878f92681dfc24715413d0c5a972cf">onCategoryListContextMenuRequested</a> (const QPoint &amp;pos)</td></tr>
+<tr class="memdesc:aa5878f92681dfc24715413d0c5a972cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Context menu event handler for the categories list widget.  <br /></td></tr>
+<tr class="separator:aa5878f92681dfc24715413d0c5a972cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af958dde8661fd8bf831f42429ca01c24" id="r_af958dde8661fd8bf831f42429ca01c24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af958dde8661fd8bf831f42429ca01c24">on_categoriesInfoButton_clicked</a> ()</td></tr>
+<tr class="memdesc:af958dde8661fd8bf831f42429ca01c24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot triggered when the "Categories Info" button is clicked.  <br /></td></tr>
+<tr class="separator:af958dde8661fd8bf831f42429ca01c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99f0bb970a217f24286b415d24e6b8f9" id="r_a99f0bb970a217f24286b415d24e6b8f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99f0bb970a217f24286b415d24e6b8f9">on_managerInfoButton_clicked</a> ()</td></tr>
+<tr class="memdesc:a99f0bb970a217f24286b415d24e6b8f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slot triggered when the "Manager Info" button is clicked.  <br /></td></tr>
+<tr class="separator:a99f0bb970a217f24286b415d24e6b8f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -227,15 +242,30 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:acff1645bbf9702607b8dec4097d6579d" id="r_acff1645bbf9702607b8dec4097d6579d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acff1645bbf9702607b8dec4097d6579d">setupTable</a> ()</td></tr>
 <tr class="memdesc:acff1645bbf9702607b8dec4097d6579d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up the table for displaying passwords and breach counts.  <br /></td></tr>
 <tr class="separator:acff1645bbf9702607b8dec4097d6579d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf9970731f85bd54878c95b6e707ff99" id="r_acf9970731f85bd54878c95b6e707ff99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf9970731f85bd54878c95b6e707ff99">setupTablesHeaders</a> (QTableWidget *table)</td></tr>
+<tr class="memdesc:acf9970731f85bd54878c95b6e707ff99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Configures the headers and basic properties of a QTableWidget for displaying passwords.  <br /></td></tr>
+<tr class="separator:acf9970731f85bd54878c95b6e707ff99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1a6147f39a9851a69fc3a641dd262d7" id="r_aa1a6147f39a9851a69fc3a641dd262d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1a6147f39a9851a69fc3a641dd262d7">displayPasswordsByCategory</a> (const QString &amp;category)</td></tr>
+<tr class="memdesc:aa1a6147f39a9851a69fc3a641dd262d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays passwords filtered by a specific category in the password category table.  <br /></td></tr>
+<tr class="separator:aa1a6147f39a9851a69fc3a641dd262d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77595ed3f5a0dd02f1d1295408a1d910" id="r_a77595ed3f5a0dd02f1d1295408a1d910"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77595ed3f5a0dd02f1d1295408a1d910">changePage</a> (int index)</td></tr>
 <tr class="memdesc:a77595ed3f5a0dd02f1d1295408a1d910"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switches the displayed page in the UI.  <br /></td></tr>
 <tr class="separator:a77595ed3f5a0dd02f1d1295408a1d910"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6af63f034508632b01f2072d682738b" id="r_ad6af63f034508632b01f2072d682738b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6af63f034508632b01f2072d682738b">changeCategoriesPage</a> (int index)</td></tr>
+<tr class="memdesc:ad6af63f034508632b01f2072d682738b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles category selection change to update displayed passwords accordingly.  <br /></td></tr>
+<tr class="separator:ad6af63f034508632b01f2072d682738b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16e1bd5551195d131e8ee27f240daafa" id="r_a16e1bd5551195d131e8ee27f240daafa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a16e1bd5551195d131e8ee27f240daafa">setupComboBox</a> ()</td></tr>
 <tr class="memdesc:a16e1bd5551195d131e8ee27f240daafa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up the language selection combo box with available options.  <br /></td></tr>
 <tr class="separator:a16e1bd5551195d131e8ee27f240daafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f56f0a0042e9dffe42dcac45db2ed98" id="r_a6f56f0a0042e9dffe42dcac45db2ed98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f56f0a0042e9dffe42dcac45db2ed98">startProgramm</a> ()</td></tr>
 <tr class="memdesc:a6f56f0a0042e9dffe42dcac45db2ed98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes application logic and state on startup.  <br /></td></tr>
 <tr class="separator:a6f56f0a0042e9dffe42dcac45db2ed98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17d7ef58d2dd1dfa16ed616954b5efd4" id="r_a17d7ef58d2dd1dfa16ed616954b5efd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17d7ef58d2dd1dfa16ed616954b5efd4">setupCategoriesComboBoxes</a> ()</td></tr>
+<tr class="memdesc:a17d7ef58d2dd1dfa16ed616954b5efd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes combo boxes related to passwords and categories.  <br /></td></tr>
+<tr class="separator:a17d7ef58d2dd1dfa16ed616954b5efd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44c50dabf41a7171af89cf510576f280" id="r_a44c50dabf41a7171af89cf510576f280"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a44c50dabf41a7171af89cf510576f280">setupCategoriesList</a> ()</td></tr>
+<tr class="memdesc:a44c50dabf41a7171af89cf510576f280"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the categories list widget with categories from the database.  <br /></td></tr>
+<tr class="separator:a44c50dabf41a7171af89cf510576f280"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -386,6 +416,40 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad6af63f034508632b01f2072d682738b" name="ad6af63f034508632b01f2072d682738b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6af63f034508632b01f2072d682738b">&#9670;&#160;</a></span>changeCategoriesPage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::changeCategoriesPage </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Handles category selection change to update displayed passwords accordingly. </p>
+<p>Retrieves the currently selected category from the categories list and refreshes the password table to show passwords belonging to that category.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The new selected index in the categories list (unused). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a77595ed3f5a0dd02f1d1295408a1d910" name="a77595ed3f5a0dd02f1d1295408a1d910"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a77595ed3f5a0dd02f1d1295408a1d910">&#9670;&#160;</a></span>changePage()</h2>
 
@@ -414,6 +478,40 @@ Private Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">index</td><td>The index of the page to switch to. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa1a6147f39a9851a69fc3a641dd262d7" name="aa1a6147f39a9851a69fc3a641dd262d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1a6147f39a9851a69fc3a641dd262d7">&#9670;&#160;</a></span>displayPasswordsByCategory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::displayPasswordsByCategory </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>category</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Displays passwords filtered by a specific category in the password category table. </p>
+<p>Clears the table, sets the row and column count, sets header labels, and populates the table with password names and decrypted passwords retrieved from the database.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">category</td><td>The category to filter passwords by. </td></tr>
   </table>
   </dd>
 </dl>
@@ -583,6 +681,62 @@ Private Attributes</h2></td></tr>
 
 <p>Shows information about data security. </p>
 <p>Displays a message box explaining that all passwords in the database are encrypted before being stored or transmitted. </p>
+
+</div>
+</div>
+<a id="ab07ae4ed3ae1d6a7381abca475f16811" name="ab07ae4ed3ae1d6a7381abca475f16811"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab07ae4ed3ae1d6a7381abca475f16811">&#9670;&#160;</a></span>on_bindCategoryButton_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::on_bindCategoryButton_clicked </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Slot triggered when the "Bind Category" button is clicked. </p>
+<p>Attempts to bind the selected category to the selected password in the database. Shows error messages on the status bar if inputs are empty or the binding fails. Refreshes category combo boxes after successful binding. </p>
+
+</div>
+</div>
+<a id="af958dde8661fd8bf831f42429ca01c24" name="af958dde8661fd8bf831f42429ca01c24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af958dde8661fd8bf831f42429ca01c24">&#9670;&#160;</a></span>on_categoriesInfoButton_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::on_categoriesInfoButton_clicked </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Slot triggered when the "Categories Info" button is clicked. </p>
+<p>Displays an informational message box warning the user that unassigned categories will be automatically deleted upon application close. </p>
 
 </div>
 </div>
@@ -1017,6 +1171,62 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a99f0bb970a217f24286b415d24e6b8f9" name="a99f0bb970a217f24286b415d24e6b8f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99f0bb970a217f24286b415d24e6b8f9">&#9670;&#160;</a></span>on_managerInfoButton_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::on_managerInfoButton_clicked </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Slot triggered when the "Manager Info" button is clicked. </p>
+<p>Shows an informational message box with licensing information about the project, emphasizing its open-source nature under GNU GPL v3.0. </p>
+
+</div>
+</div>
+<a id="a9d1e795ab16ded7c88af836d6cf17559" name="a9d1e795ab16ded7c88af836d6cf17559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d1e795ab16ded7c88af836d6cf17559">&#9670;&#160;</a></span>on_newCategButton_clicked</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::on_newCategButton_clicked </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Slot triggered when the "New Category" button is clicked. </p>
+<p>Adds a new category from the input line to the categories list and database, refreshes the category combo boxes, and clears the input field. </p>
+
+</div>
+</div>
 <a id="ae961a7bb0b1d2546b0156c4d4b52589a" name="ae961a7bb0b1d2546b0156c4d4b52589a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae961a7bb0b1d2546b0156c4d4b52589a">&#9670;&#160;</a></span>on_savePassButton_clicked</h2>
 
@@ -1137,6 +1347,40 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa5878f92681dfc24715413d0c5a972cf" name="aa5878f92681dfc24715413d0c5a972cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5878f92681dfc24715413d0c5a972cf">&#9670;&#160;</a></span>onCategoryListContextMenuRequested</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::onCategoryListContextMenuRequested </td>
+          <td>(</td>
+          <td class="paramtype">const QPoint &amp;</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Context menu event handler for the categories list widget. </p>
+<p>Displays a context menu with a "Remove category" option when right-clicking a category. If the user confirms, removes the selected category from the database and updates the UI.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pos</td><td>The position of the context menu request within the categories list widget. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a8898a9388a90867526dfbaf4b3aa9d68" name="a8898a9388a90867526dfbaf4b3aa9d68"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8898a9388a90867526dfbaf4b3aa9d68">&#9670;&#160;</a></span>onPasswordChecked()</h2>
 
@@ -1206,6 +1450,62 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a17d7ef58d2dd1dfa16ed616954b5efd4" name="a17d7ef58d2dd1dfa16ed616954b5efd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17d7ef58d2dd1dfa16ed616954b5efd4">&#9670;&#160;</a></span>setupCategoriesComboBoxes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::setupCategoriesComboBoxes </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initializes combo boxes related to passwords and categories. </p>
+<p>Populates the password name combo box with saved password names from the database, and the category combo box with the list of categories. </p>
+
+</div>
+</div>
+<a id="a44c50dabf41a7171af89cf510576f280" name="a44c50dabf41a7171af89cf510576f280"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44c50dabf41a7171af89cf510576f280">&#9670;&#160;</a></span>setupCategoriesList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::setupCategoriesList </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initializes the categories list widget with categories from the database. </p>
+<p>Clears the existing list, populates it with categories, sets up signal-slot connections for selection changes and context menu requests, and configures appearance properties. </p>
+
+</div>
+</div>
 <a id="a16e1bd5551195d131e8ee27f240daafa" name="a16e1bd5551195d131e8ee27f240daafa"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a16e1bd5551195d131e8ee27f240daafa">&#9670;&#160;</a></span>setupComboBox()</h2>
 
@@ -1265,6 +1565,40 @@ Private Attributes</h2></td></tr>
 
 <p>Sets up the table for displaying passwords and breach counts. </p>
 <p>This method initializes the table widget by setting the column count to 2, configuring the column headers, and adjusting the header resizing modes. It also hides the vertical header, disables selection and editing features for the table cells. </p>
+
+</div>
+</div>
+<a id="acf9970731f85bd54878c95b6e707ff99" name="acf9970731f85bd54878c95b6e707ff99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf9970731f85bd54878c95b6e707ff99">&#9670;&#160;</a></span>setupTablesHeaders()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::setupTablesHeaders </td>
+          <td>(</td>
+          <td class="paramtype">QTableWidget *</td>          <td class="paramname"><span class="paramname"><em>table</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Configures the headers and basic properties of a QTableWidget for displaying passwords. </p>
+<p>Sets up two columns labeled "Password's Name" and "Password", disables selection and editing, hides the vertical header, and stretches the horizontal headers to fit the table width.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">table</td><td>Pointer to the QTableWidget to configure. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

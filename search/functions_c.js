@@ -11,8 +11,11 @@ var searchData=
   ['setlanguage_8',['setLanguage',['../classSettings.html#af2a07e55b32e20d857f3fd084231fdbb',1,'Settings']]],
   ['settimer_9',['setTimer',['../classSettings.html#af215d109534413eb607b0afd7fff44a0',1,'Settings']]],
   ['settings_10',['Settings',['../classSettings.html#a3abd21a33038a6a9392f9d79eece8a89',1,'Settings']]],
-  ['setupcombobox_11',['setupComboBox',['../classMainWindow.html#a16e1bd5551195d131e8ee27f240daafa',1,'MainWindow']]],
-  ['setuptable_12',['setupTable',['../classMainWindow.html#acff1645bbf9702607b8dec4097d6579d',1,'MainWindow']]],
-  ['startprogramm_13',['startProgramm',['../classMainWindow.html#a6f56f0a0042e9dffe42dcac45db2ed98',1,'MainWindow']]],
-  ['startwatching_14',['startWatching',['../classInactivityWatcher.html#a021557527bd7033e2cae3a76cf6ab102',1,'InactivityWatcher']]]
+  ['setupcategoriescomboboxes_11',['setupCategoriesComboBoxes',['../classMainWindow.html#a17d7ef58d2dd1dfa16ed616954b5efd4',1,'MainWindow']]],
+  ['setupcategorieslist_12',['setupCategoriesList',['../classMainWindow.html#a44c50dabf41a7171af89cf510576f280',1,'MainWindow']]],
+  ['setupcombobox_13',['setupComboBox',['../classMainWindow.html#a16e1bd5551195d131e8ee27f240daafa',1,'MainWindow']]],
+  ['setuptable_14',['setupTable',['../classMainWindow.html#acff1645bbf9702607b8dec4097d6579d',1,'MainWindow']]],
+  ['setuptablesheaders_15',['setupTablesHeaders',['../classMainWindow.html#acf9970731f85bd54878c95b6e707ff99',1,'MainWindow']]],
+  ['startprogramm_16',['startProgramm',['../classMainWindow.html#a6f56f0a0042e9dffe42dcac45db2ed98',1,'MainWindow']]],
+  ['startwatching_17',['startWatching',['../classInactivityWatcher.html#a021557527bd7033e2cae3a76cf6ab102',1,'InactivityWatcher']]]
 ];

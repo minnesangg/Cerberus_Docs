@@ -135,6 +135,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a636e09be2019233a75699e5bb8b37057" id="r_a636e09be2019233a75699e5bb8b37057"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a636e09be2019233a75699e5bb8b37057">loadPasswords</a> ()</td></tr>
 <tr class="memdesc:a636e09be2019233a75699e5bb8b37057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads all stored passwords from the database.  <br /></td></tr>
 <tr class="separator:a636e09be2019233a75699e5bb8b37057"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6bab79269a4c9f2cb4dcd7bf9758c5f" id="r_ad6bab79269a4c9f2cb4dcd7bf9758c5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad6bab79269a4c9f2cb4dcd7bf9758c5f">loadCategories</a> ()</td></tr>
+<tr class="memdesc:ad6bab79269a4c9f2cb4dcd7bf9758c5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads distinct non-empty categories from the database into the local categories list.  <br /></td></tr>
+<tr class="separator:ad6bab79269a4c9f2cb4dcd7bf9758c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfaf1cf661261aef419376ad4683d6dc" id="r_acfaf1cf661261aef419376ad4683d6dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acfaf1cf661261aef419376ad4683d6dc">savePassword</a> (const QString &amp;name, const QString &amp;password)</td></tr>
 <tr class="memdesc:acfaf1cf661261aef419376ad4683d6dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves a password to the database.  <br /></td></tr>
 <tr class="separator:acfaf1cf661261aef419376ad4683d6dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,6 +147,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8aae12f9f8410c6bb9034adb4b5a95da" id="r_a8aae12f9f8410c6bb9034adb4b5a95da"><td class="memItemLeft" align="right" valign="top">QMap&lt; QString, QString &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8aae12f9f8410c6bb9034adb4b5a95da">getSavedPasswords</a> () const</td></tr>
 <tr class="memdesc:a8aae12f9f8410c6bb9034adb4b5a95da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves all saved passwords.  <br /></td></tr>
 <tr class="separator:a8aae12f9f8410c6bb9034adb4b5a95da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5667fe535ab94f768a4f2e76b3d8db51" id="r_a5667fe535ab94f768a4f2e76b3d8db51"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5667fe535ab94f768a4f2e76b3d8db51">getCategories</a> () const</td></tr>
+<tr class="memdesc:a5667fe535ab94f768a4f2e76b3d8db51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of currently loaded categories.  <br /></td></tr>
+<tr class="separator:a5667fe535ab94f768a4f2e76b3d8db51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fa441548a9e7c479430c911d3bc261d" id="r_a6fa441548a9e7c479430c911d3bc261d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fa441548a9e7c479430c911d3bc261d">bindCategoriesDB</a> (QString password, QString category)</td></tr>
+<tr class="memdesc:a6fa441548a9e7c479430c911d3bc261d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns a category to a password record in the database.  <br /></td></tr>
+<tr class="separator:a6fa441548a9e7c479430c911d3bc261d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c296d38999e5d6f2c8174cc3e37055d" id="r_a6c296d38999e5d6f2c8174cc3e37055d"><td class="memItemLeft" align="right" valign="top">QVector&lt; QPair&lt; QString, QString &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c296d38999e5d6f2c8174cc3e37055d">getPasswordsByCategory</a> (const QString &amp;category)</td></tr>
+<tr class="memdesc:a6c296d38999e5d6f2c8174cc3e37055d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves all passwords and their names for a given category.  <br /></td></tr>
+<tr class="separator:a6c296d38999e5d6f2c8174cc3e37055d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb6347a2e4e6fcd666ee331aee2792c0" id="r_afb6347a2e4e6fcd666ee331aee2792c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afb6347a2e4e6fcd666ee331aee2792c0">addCategory</a> (QString newCategory)</td></tr>
+<tr class="memdesc:afb6347a2e4e6fcd666ee331aee2792c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new category to the local categories list.  <br /></td></tr>
+<tr class="separator:afb6347a2e4e6fcd666ee331aee2792c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15c30748e1e384c1f238426374f37a02" id="r_a15c30748e1e384c1f238426374f37a02"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15c30748e1e384c1f238426374f37a02">removeCategory</a> (const QString &amp;category)</td></tr>
+<tr class="memdesc:a15c30748e1e384c1f238426374f37a02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the association of a category from all passwords in the database.  <br /></td></tr>
+<tr class="separator:a15c30748e1e384c1f238426374f37a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -156,10 +174,13 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ad51bbb0ad9f91c50bd86bc190df8ed99" id="r_ad51bbb0ad9f91c50bd86bc190df8ed99"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad51bbb0ad9f91c50bd86bc190df8ed99">dbPath</a></td></tr>
 <tr class="memdesc:ad51bbb0ad9f91c50bd86bc190df8ed99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Database path.  <br /></td></tr>
 <tr class="separator:ad51bbb0ad9f91c50bd86bc190df8ed99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a467adf86e0722d7f4f8a5573d0b0a4ae" id="r_a467adf86e0722d7f4f8a5573d0b0a4ae"><td class="memItemLeft" align="right" valign="top">QStringList&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a467adf86e0722d7f4f8a5573d0b0a4ae">categories</a></td></tr>
+<tr class="memdesc:a467adf86e0722d7f4f8a5573d0b0a4ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores all categories for passwords.  <br /></td></tr>
+<tr class="separator:a467adf86e0722d7f4f8a5573d0b0a4ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The <a class="el" href="classDatabaseManager.html" title="The DatabaseManager class.">DatabaseManager</a> class. </p>
-<p>This class manages database operations for securely storing, loading, and deleting passwords. It handles all database interactions, including AES-256 encryption and decryption of passwords and stores them in a SQLite database. The passwords are associated with a name or label (e.g., website name) for easy retrieval. This class also handles the initialization of the database, loading all stored passwords, saving new passwords with encryption, and deleting passwords.</p>
+<p>This class manages database operations for securely storing, loading, and deleting passwords. It handles all database interactions, including AES-256 encryption and decryption of passwords and stores them in a SQLite database. The passwords are associated with a name or label (e.g., website name) for easy retrieval. This class also handles the initialization of the database, loading all stored passwords, saving new passwords with encryption, and deleting passwords. Also password have optional field "category".</p>
 <dl class="section note"><dt>Note</dt><dd>Encryption is performed using AES-256 in CBC mode. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa162d97472e6c31a4e873adda435dbb6" name="aa162d97472e6c31a4e873adda435dbb6"></a>
@@ -183,6 +204,64 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="afb6347a2e4e6fcd666ee331aee2792c0" name="afb6347a2e4e6fcd666ee331aee2792c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb6347a2e4e6fcd666ee331aee2792c0">&#9670;&#160;</a></span>addCategory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DatabaseManager::addCategory </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>newCategory</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a new category to the local categories list. </p>
+<p>Note: This does not update the database; it only modifies the in-memory list.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newCategory</td><td>The name of the category to add. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6fa441548a9e7c479430c911d3bc261d" name="a6fa441548a9e7c479430c911d3bc261d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fa441548a9e7c479430c911d3bc261d">&#9670;&#160;</a></span>bindCategoriesDB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DatabaseManager::bindCategoriesDB </td>
+          <td>(</td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>password</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QString</td>          <td class="paramname"><span class="paramname"><em>category</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Assigns a category to a password record in the database. </p>
+<p>Updates the <code>category</code> field of the password entry identified by its name.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">password</td><td>The name of the password entry to update. </td></tr>
+    <tr><td class="paramname">category</td><td>The category to assign to the password. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the database update was successful; false otherwise. </dd></dl>
+
+</div>
+</div>
 <a id="ac228bb8cb0afe6b13b5d3f445fec22cf" name="ac228bb8cb0afe6b13b5d3f445fec22cf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac228bb8cb0afe6b13b5d3f445fec22cf">&#9670;&#160;</a></span>deletePassword()</h2>
 
@@ -206,6 +285,53 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a5667fe535ab94f768a4f2e76b3d8db51" name="a5667fe535ab94f768a4f2e76b3d8db51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5667fe535ab94f768a4f2e76b3d8db51">&#9670;&#160;</a></span>getCategories()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList DatabaseManager::getCategories </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the list of currently loaded categories. </p>
+<dl class="section return"><dt>Returns</dt><dd>QStringList A list of category names as QStrings. </dd></dl>
+
+</div>
+</div>
+<a id="a6c296d38999e5d6f2c8174cc3e37055d" name="a6c296d38999e5d6f2c8174cc3e37055d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c296d38999e5d6f2c8174cc3e37055d">&#9670;&#160;</a></span>getPasswordsByCategory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QVector&lt; QPair&lt; QString, QString &gt; &gt; DatabaseManager::getPasswordsByCategory </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>category</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves all passwords and their names for a given category. </p>
+<p>Decrypts the stored encrypted passwords using the master password hash, cleans non-printable characters, and returns a list of name-password pairs.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">category</td><td>The category to filter passwords by. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>QVector&lt;QPair&lt;QString, QString&gt;&gt; Vector of pairs: password name and decrypted password string. </dd></dl>
 
 </div>
 </div>
@@ -250,6 +376,26 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad6bab79269a4c9f2cb4dcd7bf9758c5f" name="ad6bab79269a4c9f2cb4dcd7bf9758c5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6bab79269a4c9f2cb4dcd7bf9758c5f">&#9670;&#160;</a></span>loadCategories()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DatabaseManager::loadCategories </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads distinct non-empty categories from the database into the local categories list. </p>
+<p>Queries the database for all unique categories assigned to passwords, excluding null or empty values, and stores them in the <code>categories</code> member. </p>
+
+</div>
+</div>
 <a id="a636e09be2019233a75699e5bb8b37057" name="a636e09be2019233a75699e5bb8b37057"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a636e09be2019233a75699e5bb8b37057">&#9670;&#160;</a></span>loadPasswords()</h2>
 
@@ -267,6 +413,33 @@ Private Attributes</h2></td></tr>
 
 <p>Loads all stored passwords from the database. </p>
 <p>Retrieves all saved passwords from the database, decrypts them using the master password, and stores them in the <code>savedPasswords</code> QMap for quick access. </p>
+
+</div>
+</div>
+<a id="a15c30748e1e384c1f238426374f37a02" name="a15c30748e1e384c1f238426374f37a02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15c30748e1e384c1f238426374f37a02">&#9670;&#160;</a></span>removeCategory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool DatabaseManager::removeCategory </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;</td>          <td class="paramname"><span class="paramname"><em>category</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes the association of a category from all passwords in the database. </p>
+<p>Sets the <code>category</code> field to NULL for all passwords assigned to the specified category. Also removes the category from the local categories list.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">category</td><td>The category to remove. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the database update was successful; false otherwise. </dd></dl>
 
 </div>
 </div>
@@ -328,6 +501,30 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a467adf86e0722d7f4f8a5573d0b0a4ae" name="a467adf86e0722d7f4f8a5573d0b0a4ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a467adf86e0722d7f4f8a5573d0b0a4ae">&#9670;&#160;</a></span>categories</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QStringList DatabaseManager::categories</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stores all categories for passwords. </p>
+
+</div>
+</div>
 <a id="ad51bbb0ad9f91c50bd86bc190df8ed99" name="ad51bbb0ad9f91c50bd86bc190df8ed99"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad51bbb0ad9f91c50bd86bc190df8ed99">&#9670;&#160;</a></span>dbPath</h2>
 

@@ -9,5 +9,6 @@ var searchData=
   ['deletepassword_6',['deletePassword',['../classDatabaseManager.html#ac228bb8cb0afe6b13b5d3f445fec22cf',1,'DatabaseManager']]],
   ['dialoglogin_7',['DialogLogin',['../classDialogLogin.html',1,'DialogLogin'],['../classDialogLogin.html#afe1b70ffd09a73f0a4b3ea66c91a275f',1,'DialogLogin::DialogLogin()']]],
   ['dialoglogin_2ecpp_8',['dialoglogin.cpp',['../dialoglogin_8cpp.html',1,'']]],
-  ['dialoglogin_2eh_9',['dialoglogin.h',['../dialoglogin_8h.html',1,'']]]
+  ['dialoglogin_2eh_9',['dialoglogin.h',['../dialoglogin_8h.html',1,'']]],
+  ['displaypasswordsbycategory_10',['displayPasswordsByCategory',['../classMainWindow.html#aa1a6147f39a9851a69fc3a641dd262d7',1,'MainWindow']]]
 ];
