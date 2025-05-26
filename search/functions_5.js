@@ -7,6 +7,7 @@ var searchData=
   ['getmasterpasswordhash_4',['getMasterPasswordHash',['../classMasterPassword.html#ae3f8f50f2310ea3eb1e07ecd4e758e70',1,'MasterPassword']]],
   ['getpasswordsbycategory_5',['getPasswordsByCategory',['../classDatabaseManager.html#a6c296d38999e5d6f2c8174cc3e37055d',1,'DatabaseManager']]],
   ['getsavedpasswords_6',['getSavedPasswords',['../classDatabaseManager.html#a8aae12f9f8410c6bb9034adb4b5a95da',1,'DatabaseManager']]],
-  ['gettimer_7',['getTimer',['../classSettings.html#ad1e35ae0f9faaca60f44a832cadbe368',1,'Settings']]],
-  ['gmailsender_8',['GmailSender',['../classGmailSender.html#a4d1f72705859445217571a51bc926190',1,'GmailSender']]]
+  ['getstyle_7',['getStyle',['../classDialogLogin.html#acd207016d95a0bafa6b2cd5c8601df90',1,'DialogLogin']]],
+  ['gettimer_8',['getTimer',['../classSettings.html#ad1e35ae0f9faaca60f44a832cadbe368',1,'Settings']]],
+  ['gmailsender_9',['GmailSender',['../classGmailSender.html#a4d1f72705859445217571a51bc926190',1,'GmailSender']]]
 ];
